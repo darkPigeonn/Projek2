@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:background="@drawable/bc_halut">
+
+    <LinearLayout
+        android:id="@+id/ln1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/bobbyjonesoft"
+            android:gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="@string/judul_content"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/bvoice"
+            android:layout_width="69dp"
+            android:layout_height="65dp"
+            android:background="@drawable/button_voicea"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bobbyjonesoft"
+            android:gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="@string/judul"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="@string/judul2"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bobbycondesed"
+            android:gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="@string/judul3"
+            android:textColor="#075165"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ln5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:orientation="vertical">
+
+            <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+                <ImageButton
+                android:id="@+id/b_belajar"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+
+                android:background="@drawable/button_ayo">
+                 </ImageButton>
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/b_belajar"
+                android:textColor="@color/black"
+                android:fontFamily="@font/bobbyjonesoft"
+                android:textSize="35dp"
+                android:layout_marginHorizontal="10dp">
+                </TextView>
+            </FrameLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/b_deskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_deskripsi"></ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/bobbyjonesoft"
+                    android:text="@string/b_deskripsi"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"></TextView>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/b_profil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_profil"></ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/bobbyjonesoft"
+                    android:text="@string/b_profil"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="35dp"></TextView>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/b_petunjuk"
+                    android:layout_width="match_parent"
+                    android:layout_height="81dp"
+                    android:background="@drawable/button_petunjuk"></ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="71dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/bobbyjonesoft"
+                    android:text="@string/b_petunjuk"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"></TextView>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

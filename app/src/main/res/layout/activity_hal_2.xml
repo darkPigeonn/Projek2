@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:id="@+id/ln1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="40dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/b_materi"
+                    android:layout_width="170dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/button_materi"></ImageButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/b_materi"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/krabuler"
+                    android:textSize="45dp"
+                    android:layout_marginHorizontal="10dp">
+                </TextView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/b_glosarium"
+                    android:layout_width="170dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/button_glosarium"></ImageButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/krabuler"
+                    android:text="@string/b_glosarium"
+                    android:textColor="@color/black"
+                    android:textSize="38dp"></TextView>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/b_video_pembelajaran"
+                    android:layout_width="170dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/button_video"></ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/krabuler"
+                    android:text="@string/b_vid_belajar"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="28dp"></TextView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/b_tugas_latihan"
+                    android:layout_width="170dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/button_tugas"></ImageButton>
+
+                <TextView
+                    android:layout_width="145dp"
+                    android:layout_height="76dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/krabuler"
+                    android:text="@string/b_tgs_lat"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="28dp"></TextView>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/b_lkpd"
+                    android:layout_width="170dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/button_lkpd"></ImageButton>
+
+                <TextView
+                    android:layout_width="145dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/krabuler"
+                    android:text="@string/b_lkpd"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="45dp"></TextView>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:fontFamily="@font/opensansextrabold"
+                android:text="@string/nb_hal2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingLeft="165dp">
+
+        <ImageButton
+            android:id="@+id/b_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_home"></ImageButton>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:id="@+id/ln1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/judul_materi"
+            android:fontFamily="@font/sensei"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:justificationMode="inter_word"
+            android:text="@string/judul_materi"
+            android:textColor="@color/black"
+            android:textSize="45dp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ln2"
+        android:layout_below="@+id/ln1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="197dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="40dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/b_sis_ekskresi"
+                    android:layout_width="170dp"
+                    android:layout_height="185dp"
+                    android:background="@drawable/button_sistem_eks"></ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/bobbyjonesoft"
+                    android:text="@string/b_sis_eks"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="28dp"></TextView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/b_teknologi"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/button_teknosis"></ImageButton>
+
+                <TextView
+                    android:layout_width="128dp"
+                    android:layout_height="108dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/bobbyjonesoft"
+                    android:text="@string/b_tekno"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="28dp"></TextView>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/b_organ_ekskresi"
+                    android:layout_width="170dp"
+                    android:layout_height="171dp"
+                    android:background="@drawable/button_organ_1"></ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="119dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="1dp"
+                    android:fontFamily="@font/bobbyjonesoft"
+                    android:text="@string/b_organ"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"></TextView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/b_panduan"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/button_panduan"></ImageButton>
+
+                <TextView
+                    android:layout_width="145dp"
+                    android:layout_height="76dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="1dp"
+                    android:fontFamily="@font/bobbyjonesoft"
+                    android:text="@string/b_panduan"
+                    android:textAlignment="center"
+                    android:textColor="#662d91"
+                    android:textSize="28dp"></TextView>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:fontFamily="@font/nunitosansbold"
+                    android:text="@string/nb_hal3"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+
+        <ImageButton
+            android:id="@+id/b_menu_materi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/b_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/button_home"></ImageButton>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

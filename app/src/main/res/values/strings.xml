@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Projek2</string>
+    <string name="judul_content">MULTIMEDIA INTERAKTIF</string>
+    <string name="judul">SISTEM EKSKRESI PADA MANUSIA</string>
+    <string name="judul2">UNTUK SMA/MA KELAS XI</string>
+    <string name="judul3">MAGDALENA LELY LORENZA NALELE</string>
+    <string name="b_belajar">AYO BELAJAR</string>
+    <string name="b_deskripsi">DESKRIPSI MATA PELAJARAN</string>
+    <string name="b_profil">PROFIL</string>
+    <string name="b_petunjuk">PETUNJUK PENGGUNAAN</string>
+    <string name="b_materi">Materi</string>
+    <string name="b_glosarium">Glosarium</string>
+    <string name="b_vid_belajar">Video Pembelajaran</string>
+    <string name="b_tgs_lat">Tugas dan Latihan</string>
+    <string name="b_lkpd">LKPD</string>
+    <string name="nb_hal2">Silahkan untuk mempelajari lebih lanjut</string>
+    <string name="judul_materi">MATERI</string>
+    <string name="b_sis_eks">SISTEM EKSKRESI</string>
+    <string name="b_tekno">TEKNOLOGI SISTEM EKSKRESI</string>
+    <string name="b_organ">ORGAN SISTEM EKSKRESI PADA MANUSIA</string>
+    <string name="b_panduan">PANDUAN PRAKTIKUM</string>
+    <string name="nb_hal3">Klik menu untuk mempelajari lebih lanjut</string>
+    <string name="judul_sistem">SISTEM EKSKRESI</string>
+    <string name="content_sistem">Sistem Ekskresi adalah  pembuangan zat-zat sisa metabolisme yang tidak berguna atau berbahaya jika disimpan di dalam tubuh.</string>
+    <string name="content_sistem2">
 </resources>
