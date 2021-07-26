@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:background="@drawable/back_organ">
+
+    <LinearLayout
+        android:id="@+id/ln1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/bobbyjonesoft"
+            android:gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="@string/judul_organ"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ln2"
+        android:layout_below="@+id/ln1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="132dp"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/giforganparu"
+                        android:layout_width="139dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/organ_paru"></pl.droidsonroids.gif.GifImageView>
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/giforganginjal"
+                        android:layout_width="157dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/organ_ginjal"></pl.droidsonroids.gif.GifImageView>
+                </TableRow>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="20dp">
+
+                        <ImageButton
+                            android:id="@+id/btn_paru"
+                            android:layout_width="131dp"
+                            android:layout_height="45dp"
+
+                            android:background="@drawable/button_organ"></ImageButton>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/chewyregular"
+                            android:text="Paru-Paru"
+                            android:textAlignment="center"
+                            android:textColor="#082a44"
+                            android:textSize="25dp"
+                            android:gravity="center"></TextView>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="50dp">
+
+                        <ImageButton
+                            android:id="@+id/btn_ginjal"
+                            android:layout_width="131dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/button_organ"></ImageButton>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/chewyregular"
+                            android:text="Ginjal"
+                            android:textAlignment="center"
+                            android:textColor="#082a44"
+                            android:textSize="25dp"
+                            android:gravity="center"></TextView>
+                    </FrameLayout>
+
+                </TableRow>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="152dp"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/giforganhati"
+                        android:layout_width="159dp"
+                        android:layout_height="140dp"
+                        android:background="@drawable/organ_hati"></pl.droidsonroids.gif.GifImageView>
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/giforgankulit"
+                        android:layout_width="126dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/organ_kulit"></pl.droidsonroids.gif.GifImageView>
+                </TableRow>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="20dp">
+
+                        <ImageButton
+                            android:id="@+id/btn_hati"
+                            android:layout_width="131dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/button_organ"></ImageButton>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/chewyregular"
+                            android:text="Hati"
+                            android:textAlignment="center"
+                            android:textColor="#082a44"
+                            android:textSize="25dp"
+                            android:gravity="center"></TextView>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="50dp">
+
+                        <ImageButton
+                            android:id="@+id/btn_kulit"
+                            android:layout_width="131dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/button_organ"></ImageButton>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/chewyregular"
+                            android:text="Kulit"
+                            android:textAlignment="center"
+                            android:textColor="#082a44"
+                            android:textSize="25dp"
+                            android:gravity="center"></TextView>
+                    </FrameLayout>
+
+                </TableRow>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:fontFamily="@font/nunitosansbold"
+                    android:text="@string/nb_hal5"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln3"
+        android:layout_below="@id/ln2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_latihan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="19dp"
+            android:text="Latihan Soal"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunitosansbold"
+            android:background=""></Button>
+
+        <Button
+            android:id="@+id/btn_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="11dp"
+            android:text="Video"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunitosansbold"
+            android:background=""
+            android:textSize="18dp"></Button>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ln4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+
+        <ImageButton
+            android:id="@+id/b_menu_materi"
+            android:layout_width="73dp"
+            android:layout_height="72dp"
+            android:background="@drawable/button_menu"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/b_home"
+            android:layout_width="71dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/button_home"></ImageButton>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
