@@ -56,167 +56,345 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="393dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/box"
-                    android:orientation="vertical"
-                    android:padding="9dp">
+                    android:orientation="vertical">
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:text="@string/b_semangat_bio_b"
-                        android:textColor="@color/black"
-                        android:textSize="18dp" />
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
-                        android:padding="8dp"
-                        android:text="@string/penguatan_1"
-                        android:justificationMode="inter_word"
-                        android:textColor="@color/black"
-                        android:textSize="18dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="1."
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:text="@string/content_7_1"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:fontFamily="@font/alata_regular"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="2."
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:text="@string/content_7_12"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+                    </TableRow>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/judul_faktor"
+                    android:fontFamily="@font/alata_regular"
+                    android:text="Faktor Eksternal"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="393dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/box"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="1."
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:text="@string/content_7_4"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="2."
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:text="@string/content_7_5"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="3."
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:text="@string/content_7_6"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+                    </TableRow>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="105dp"
+                    android:background="@drawable/judul_faktor"
+                    android:fontFamily="@font/alata_regular"
+                    android:text="Karakteristik Urine"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="393dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/box2"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="100dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:padding="8dp"
+                            android:text="Sifat fisik urine"
+                            android:textColor="@color/black"
+                            android:textSize="22sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="1."
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:fontFamily="@font/alata_regular"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:text="@string/content_7_7"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="2."
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:text="@string/content_7_8"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="3."
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:text="@string/content_7_9"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="4."
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:text="@string/content_7_10"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+                    </TableRow>
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="393dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:background="@drawable/bgline"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/box3"
+                    android:orientation="vertical">
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:text="Informasi Bio : "
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:textSize="18dp" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
-                        android:padding="8dp"
-                        android:text="@string/penguatan_2"
-                        android:justificationMode="inter_word"
-                        android:textColor="@color/black"
-                        android:textSize="18dp" />
-                </LinearLayout>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:background="@drawable/bgline"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="100dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:padding="8dp"
+                            android:text="Komposisi urine"
+                            android:textColor="@color/black"
+                            android:textSize="22sp" />
+                    </TableRow>
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:text="Kuis Bio : "
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:textSize="18dp" />
-                    <TextView
-                        android:onClick="kuis1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
-                        android:padding="8dp"
-                        android:text="@string/penguatan_3"
-                        android:justificationMode="inter_word"
-                        android:textColor="@color/black"
-                        android:textSize="18dp" />
-                </LinearLayout>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:background="@drawable/bgline"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="1."
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:text="Informasi Bio : "
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:textSize="18dp" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
-                        android:padding="8dp"
-                        android:text="@string/penguatan4"
-                        android:justificationMode="inter_word"
-                        android:textColor="@color/black"
-                        android:textSize="18dp" />
-                </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:text="@string/content_7_11"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+                    </TableRow>
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:background="@drawable/bgline"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:text="Informasi Bio : "
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:textSize="18dp" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
-                        android:padding="8dp"
-                        android:text="@string/penguatan_5"
-                        android:justificationMode="inter_word"
-                        android:textColor="@color/black"
-                        android:textSize="18dp" /> />
-                </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="2."
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:background="@drawable/bgline"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:text="Kuis Bio : "
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:textSize="18dp" />
-                    <TextView
-                        android:onClick="kuis2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
-                        android:padding="8dp"
-                        android:text="@string/penguatan_6"
-                        android:justificationMode="inter_word"
-                        android:textColor="@color/black"
-                        android:textSize="18dp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:text="@string/content_7_12"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/alata_regular"/>
+                    </TableRow>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
@@ -234,8 +412,6 @@
         android:padding="10dp"
         android:scaleX="1"
         android:scaleY="1">
-
-
 
         <ImageView
             android:id="@+id/btnbck"

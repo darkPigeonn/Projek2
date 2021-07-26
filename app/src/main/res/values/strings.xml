@@ -45,23 +45,23 @@
     <string name="content_7_11">Urine terdiri dari 95% air dan zat terlarut.</string>
     <string name="content_7_12">Zat yang terkandung dalam urine normal yaitu urea, asam urat, asam hipurat, zat kimia asing, ion natrium, klorin, sulfat, fosfat, kalsium, magnesium, amonium dan kalium.</string>
     <string name="content_korteks">Korteks merupakan bagian ginjal yang paling luar. Bagian ini dikelilingi oleh lapisan jaringan lemak yang berfungsi untuk melindungi bagian dalam ginjal.</string>
-<string name="content_pelvis">Pelvis renalis merupakan ruang atau saluran yang berbentuk menyerupai corong. Ujung corong bercabang menjadi 2 atau 3 kaliks major dan setiap kaliks major bercabang menjadi kaliks minor.  Kaliks minor berfungsi sebagai tempat untuk menampung urine kemudian urine masuk menuju kaliks major dan selanjutnya menuju pelvis renalis. Urine tersebut kemudian disaluran menuju kandung kemih melalui ureter.
+    <string name="content_pelvis">Pelvis renalis merupakan ruang atau saluran yang berbentuk menyerupai corong. Ujung corong bercabang menjadi 2 atau 3 kaliks major dan setiap kaliks major bercabang menjadi kaliks minor.  Kaliks minor berfungsi sebagai tempat untuk menampung urine kemudian urine masuk menuju kaliks major dan selanjutnya menuju pelvis renalis. Urine tersebut kemudian disaluran menuju kandung kemih melalui ureter.
 </string>
     <string name="content_arteri">Arteri pada ginjal berfungsi untuk membawa darah yang kaya akan oksigen dari jantung ke ginjal untuk proses filtrasi</string>
-<string name="content_vena">Vena pada ginjal berfungsi untuk membawa darah yang telah mengalami filtrasi atau disaring oleh ginjal kemudian kembali ke jantung</string>
-<string name="content_ure"> Ureter merupakan suatu saluran yang berbentuk  menyerupai saluran pipa dan berfungsi untuk membawa urin dari ginjal menuju kandung kemih. Ureter terdri dari 2 saluran yang terletak di sisi kanan dan kiri tubuh.</string>
-<string name="medula">Medula merupakan jaringan halus yang terdapat di dalam ginjal dan terdiri dari piramida ginjal yang meliputi nefron dan tubulus. Tubulus berfungsi untuk mengangkut cairan tubuh dan darah menuju ginjal.</string>
-<string name="kapsul_bow">Kapsul Bowman merupakan struktur kantong yang berfungsi mengumpulkan filtrat glomerulus kemudian mengalirkan darah ke tubulus renalis</string>
-<string name="nefron">Nefron merupakan penyusun utama ginjal yang berperan dalam proses penyaringan darah. Ginjal tersusun dari 1 juta nefron. Nefron terdiri dari komponen penyaring/badan malpighi yang dilanjutkan oleh saluran-saluran/tubulus. Tiap badan malpighi mengandung kapiler darah yaitu glomerulus yang berada dalam kapsula bowman. </string>
-<string name="glome">Glomerulus merupakan kumpulan pembuluh kapiler yang berada di dalam kapsula bowman. Berfungsi untuk menyaring protein dari darah (proses filtrasi) dan menyerapnya kembali agar dapat digunakan oleh tubuh. Kemudian cairan dan darah bebas protein akan dialirkan menuju kapsul bowman. </string>
-<string name="henle">Lengkung henle merupakan saluran melengkung di area medula yang menghubungkan tubulus kontortus proksimal dengan tubulus kontortus distal. Berfungsi untuk mengatur tingkat osmotik darah dan hipertonik/hipotonik urine.</string>
-<string name="kolektivus">Tubulus kolektivus merupakan saluran yang berfungsi untuk mengumpulkan urine dan dibawa menuju pelvis kemudian disimpan dalam kandung kemih untuk beberapa saat sebelum dikeluarkan.</string>
-<string name="kontortus_pro">Tubulus kontortus proksimal merupakan saluran berliku-liku yang berada setelah glomerulus. Berfungsi untuk reabsorpsi urine primer  atau penyerapan kembali zat-zat yang masih dibutuhkan oleh tubuh.</string>
-<string name="kontortus_dis">Tubulus kontortus distal merupakan saluran berliku-liku yang berada di akhir dari saluran nefron. Berfungsi untuk melakukan proses augmentasi atau penambahan zat yang tidak berguna sehingga urine menjadi pekat dan siap untuk dikeluarkan dari tubuh </string>
-<string name="kapiler">Pembuluh kapiler merupakan pembuluh kecil yang memiliki dinding sangat tipis dan berfungsi untuk menghubungkan arteriol dengan venula</string>
-<string name="uk_1">Ukuran ginjal orang dewasa yaitu memiliki panjang sekitar 11,5 cm, lebar 6 cm dan tebal sekitar 2,5-3,5 cm. Berat ginjal laki-laki dewasa sekitar 125-175 gram sedangkan pada wanita dewasa sekitar 115-155 gram.</string>
-<string name="uk_2">Ginjal berjumlah sepasang dan terletak pada bagian belakang perut, sebelah kanan dan kiri dari tulang belakang.</string>
-<string name="fun_1">Mengeluarkan zat sisa organik, misalnya urea, asam urat, kreatinin, amonia serta produk pengurai hemoglobin dan hormon.
+    <string name="content_vena">Vena pada ginjal berfungsi untuk membawa darah yang telah mengalami filtrasi atau disaring oleh ginjal kemudian kembali ke jantung</string>
+    <string name="content_ure"> Ureter merupakan suatu saluran yang berbentuk  menyerupai saluran pipa dan berfungsi untuk membawa urin dari ginjal menuju kandung kemih. Ureter terdri dari 2 saluran yang terletak di sisi kanan dan kiri tubuh.</string>
+    <string name="medula">Medula merupakan jaringan halus yang terdapat di dalam ginjal dan terdiri dari piramida ginjal yang meliputi nefron dan tubulus. Tubulus berfungsi untuk mengangkut cairan tubuh dan darah menuju ginjal.</string>
+    <string name="kapsul_bow">Kapsul Bowman merupakan struktur kantong yang berfungsi mengumpulkan filtrat glomerulus kemudian mengalirkan darah ke tubulus renalis</string>
+    <string name="nefron">Nefron merupakan penyusun utama ginjal yang berperan dalam proses penyaringan darah. Ginjal tersusun dari 1 juta nefron. Nefron terdiri dari komponen penyaring/badan malpighi yang dilanjutkan oleh saluran-saluran/tubulus. Tiap badan malpighi mengandung kapiler darah yaitu glomerulus yang berada dalam kapsula bowman. </string>
+    <string name="glome">Glomerulus merupakan kumpulan pembuluh kapiler yang berada di dalam kapsula bowman. Berfungsi untuk menyaring protein dari darah (proses filtrasi) dan menyerapnya kembali agar dapat digunakan oleh tubuh. Kemudian cairan dan darah bebas protein akan dialirkan menuju kapsul bowman. </string>
+    <string name="henle">Lengkung henle merupakan saluran melengkung di area medula yang menghubungkan tubulus kontortus proksimal dengan tubulus kontortus distal. Berfungsi untuk mengatur tingkat osmotik darah dan hipertonik/hipotonik urine.</string>
+    <string name="kolektivus">Tubulus kolektivus merupakan saluran yang berfungsi untuk mengumpulkan urine dan dibawa menuju pelvis kemudian disimpan dalam kandung kemih untuk beberapa saat sebelum dikeluarkan.</string>
+    <string name="kontortus_pro">Tubulus kontortus proksimal merupakan saluran berliku-liku yang berada setelah glomerulus. Berfungsi untuk reabsorpsi urine primer  atau penyerapan kembali zat-zat yang masih dibutuhkan oleh tubuh.</string>
+    <string name="kontortus_dis">Tubulus kontortus distal merupakan saluran berliku-liku yang berada di akhir dari saluran nefron. Berfungsi untuk melakukan proses augmentasi atau penambahan zat yang tidak berguna sehingga urine menjadi pekat dan siap untuk dikeluarkan dari tubuh </string>
+    <string name="kapiler">Pembuluh kapiler merupakan pembuluh kecil yang memiliki dinding sangat tipis dan berfungsi untuk menghubungkan arteriol dengan venula</string>
+    <string name="uk_1">Ukuran ginjal orang dewasa yaitu memiliki panjang sekitar 11,5 cm, lebar 6 cm dan tebal sekitar 2,5-3,5 cm. Berat ginjal laki-laki dewasa sekitar 125-175 gram sedangkan pada wanita dewasa sekitar 115-155 gram.</string>
+    <string name="uk_2">Ginjal berjumlah sepasang dan terletak pada bagian belakang perut, sebelah kanan dan kiri dari tulang belakang.</string>
+    <string name="fun_1">Mengeluarkan zat sisa organik, misalnya urea, asam urat, kreatinin, amonia serta produk pengurai hemoglobin dan hormon.
 </string>
     <string name="fun_2">Mengeluarkan zat racun, contohnya obat-obatan, zat kimia asing, zat adiktif makanan dan polutan.
 </string>
@@ -80,7 +80,7 @@
     <string name="atasi_1">Merubah gaya hidup untuk menjaga kesehatan ginjal yaitu dengan menghindari makanan berlemak, mengurangi konsumsi makanan yang mengandung protein tinggi, diet garam, olahraga dan tidak merokok.</string>
     <string name="atasi_2">Menurunkan berat badan, jika kelebihan berat badan.</string>
     <string name="atasi_3">Konsumsi obat-obatan yang diresepkan oleh dokter.</string>
-<string name="bat_ginjal">Batu Ginjal merupakan penyakit yang terjadi karena terbentuknya material menyerupai batu pada ginjal. Material tersebut mengendap dan mengkristal seiring waktu. Endapan tersebut dapat berupa senyawa kalsium dan penumpukan asam urat. </string>
+    <string name="bat_ginjal">Batu Ginjal merupakan penyakit yang terjadi karena terbentuknya material menyerupai batu pada ginjal. Material tersebut mengendap dan mengkristal seiring waktu. Endapan tersebut dapat berupa senyawa kalsium dan penumpukan asam urat. </string>
     <string name="jenis_batu"> Batu kalsium, batu struvit, batu asam urat, batu
 sistin, batu xanthine, batu triamteren, dan batu
 silikat. </string>
@@ -99,33 +99,33 @@ silikat. </string>
     <string name="atasi_batu2">Minum air putih yang cukup dan konsumsi makanan yang rendah garam</string>
     <string name="atasi_batu3">Tidak menahan buang air kecil</string>
     <string name="diabet_mel">Diabetes Melitus merupakan penyakit menahun yang ditandai dengan kadar gula darah yang melebihi batas normal, sewaktu sama atau lebih dari 200 mg/dl, dan kadar gula darah puasa di atas atau sama dengan 126 mg/dl. Terdapat dua jenis diabetes melitus, yaitu diabetes melitus tipe 1 dan diabetes melitus tipe 2.</string>
-<string name="con_tipe1">Diabetes Melitus Tipe 1
+    <string name="con_tipe1">Diabetes Melitus Tipe 1
  disebabkan karena kurangnya sekresi insulin akibat sel pankreas sedikit memproduksi atau tidak memproduksi insulin.</string>
     <string name="con2_tipe1">Sehingga diperlukan insulin eksogen (insulin produk farmasi yang disuntikan). Penyakit ini dimulai pada saat usia remaja.</string>
-<string name="tipe2">Diabetes Melitus Tipe 2
+    <string name="tipe2">Diabetes Melitus Tipe 2
 disebabkan karena penurunan kepekaan sel sasaran insulin seperti sel hati dan sel otot rangka yang dipengaruhi oleh faktor genetik serta gaya hidup. Penyakit ini dimulai saat usia dewasa dan sekitar 90 % penderita karena mengalami obesitas.</string>
-<string name="atasi_diabet_tp1">Pengobatan penderita diabetes melitus tipe 1 yaitu dengan terapi insulin yang diberikan melalui suntikan untuk mengatur kadar gula darah sehari-hari. </string>
-<string name="atasi_diabet_tp2">Pengobatan diabetes melitus tipe 2 yaitu dengan konsumsi obat-obatan untuk menurunkan produksi glukosa dari hati.</string>
-<string name="atasi_diabet1">Mengatur pola makan yaitu memperbanyak konsumsi sayur, buah, protein dari biji-bijian dan makanan rendah kalori serta rendah lemak.
+    <string name="atasi_diabet_tp1">Pengobatan penderita diabetes melitus tipe 1 yaitu dengan terapi insulin yang diberikan melalui suntikan untuk mengatur kadar gula darah sehari-hari. </string>
+    <string name="atasi_diabet_tp2">Pengobatan diabetes melitus tipe 2 yaitu dengan konsumsi obat-obatan untuk menurunkan produksi glukosa dari hati.</string>
+    <string name="atasi_diabet1">Mengatur pola makan yaitu memperbanyak konsumsi sayur, buah, protein dari biji-bijian dan makanan rendah kalori serta rendah lemak.
 </string>
     <string name="atasi_diabet2">Mengganti asupan gula dengan pemanis yang aman.</string>
     <string name="atasi_diabet3">Olahraga secara rutin</string>
     <string name="atasi_diabet4">Mengecek kadar gula darah secara rutin.</string>
     <string name="insipidus">Diabetes insipidus merupakan penyakit yang diakibatkan karena ketidakseimbangan cairan dalam tubuh, sehingga ginjal mengeluarkan cairan yang berlebih dan tidak dapat menghasilkan urine yang pekat. Penderita akan sering buang air kecil dan rasa haus yang berlebihan untuk mengimbangi banyaknya cairan yang hilang</string>
-<string name="insipidus2">Diabetes insipidus ditandai dengan produksi urine yang berlebih dan encer, disertai rasa haus. Pengeluaran urine sekitar 20 liter perhari (30 kali dari jumlah urine normal). </string>
+    <string name="insipidus2">Diabetes insipidus ditandai dengan produksi urine yang berlebih dan encer, disertai rasa haus. Pengeluaran urine sekitar 20 liter perhari (30 kali dari jumlah urine normal). </string>
     <string name="insipi_kranil">Diabetes ini disebabkan karena tubuh tidak memiliki cukup atau kekurangan hormon ADH <i>(Antidiuretic Hormone)</i>
                                          dari hipotalamus. Kondisi ini disebabkan dari kerusakan yang terjadi karena infeksi, operasi, cedera otak, atau tumor otak pada hipotalamus atau pada kelenjar pituitari. </string>
 
-<string name="insipi_nefro">Diabetes ini disebabkan saat tubuh memiliki hormon antidiuretik yang cukup untuk mengatur produksi urine, tetapi organ ginjal tidak dapat merespon. Kondisi ini disebabkan karena genetik atau kerusakan fungsi organ ginjal.</string>
-<string name="atasi_kranil1">Konsumsi air lebih banyak untuk mengimbangi jumlah cairan yang terbuang.
+    <string name="insipi_nefro">Diabetes ini disebabkan saat tubuh memiliki hormon antidiuretik yang cukup untuk mengatur produksi urine, tetapi organ ginjal tidak dapat merespon. Kondisi ini disebabkan karena genetik atau kerusakan fungsi organ ginjal.</string>
+    <string name="atasi_kranil1">Konsumsi air lebih banyak untuk mengimbangi jumlah cairan yang terbuang.
 </string>
     <string name="atasi_kranil2">Menggunakan hormon antidiuretik buatan yang cara kerjanya sama, yaitu menghentikan produksi urine yang berlebih ketika jumlah cairan dalam tubuh rendah.</string>
     <string name="atasi_nefro1">Konsumsi air lebih banyak untuk mengimbangi jumlah cairan yang terbuang.</string>
     <string name="atasi_nefro2">Mengurangi asupan garam dan mengatur pola hidup sehat.</string>
     <string name="atasi_nefro3">Konsumsi obat yang berfungsi untuk menurunkan jumlah urine yang dihasilkan oleh organ ginjal.</string>
-<string name="anuaria">Anuria merupakan gangguan pada ginjal yang mengakibatkan tubuh tidak mampu memproduksi urine. Penderita anuria tidak dapat buang air kecil dalam waktu 12 jam terakhir.</string>
-<string name="anur_batu">Terjadi penyumbatan di ginjal atau ureter sehingga menyebabkan urine tidak dapat keluar.</string>
-<string name="anur_tekanan">Terjadi kerusakan pada pembuluh darah, sehingga ginjal kehilangan fungsinya dan tidak dapat menghasilkan urine. </string>
+    <string name="anuaria">Anuria merupakan gangguan pada ginjal yang mengakibatkan tubuh tidak mampu memproduksi urine. Penderita anuria tidak dapat buang air kecil dalam waktu 12 jam terakhir.</string>
+    <string name="anur_batu">Terjadi penyumbatan di ginjal atau ureter sehingga menyebabkan urine tidak dapat keluar.</string>
+    <string name="anur_tekanan">Terjadi kerusakan pada pembuluh darah, sehingga ginjal kehilangan fungsinya dan tidak dapat menghasilkan urine. </string>
     <string name="anur_gagal">Ginjal tidak dapat berfungsi dan darah tidak dapat disaring dengan baik sehingga tidak dapat menghasilkan urine.</string>
     <string name="atasi_anur1">Konsumsi obat-obatan yang sesuai dengan penyebab terjadinya anuria dan sesuai dengan resep dokter.</string>
     <string name="atasi_anur2">Anuria sering terjadi pada penderita gagal ginjal sehingga dapat dilakukan prosedur cuci darah atau hemodialisis untuk mengganti fungsi ginjal yang rusak.
@@ -149,40 +149,15 @@ disebabkan karena penurunan kepekaan sel sasaran insulin seperti sel hati dan se
     <string name="paru4">Terjadi pertukaran oksigen dan karbondioksida, lalu oksigen diserap oleh pembuluh darah dan dialirkan menuju jantung.</string>
     <string name="paru5">Karbondioksida dialirkan menuju paru-paru dan dikeluarkan dari tubuh melalui hembusan nafas.</string>
     <string name="trakea">Trakea memiliki bentuk menyerupai pipa dan berfungsi sebagai jalur bagi udara untuk masuk dan keluar dari paru-paru. Trakea tersusun dari tulang rawan yang berbentuk cincin dan terdapat di depan kerongkongan.   </string>
-<string name="bronkus">Bronkus merupakan cabang tenggorokan yang tersusun dari tulang rawan yang berbentuk cincin. Bronkus memiliki 2 cabang yang masing-masing menuju paru-paru kanan dan kiri serta berfungsi sebagai jalur udara dari trakea menuju paru-paru. </string>
-<string name="hati">Hati merupakan kelenjar terbesar yang terletak di dalam rongga perut sebelah kanan, diatas lambung dan di bawah diafragmma. </string>
-<string name="hati2">Hati dibungkus oleh jaringan ikat padat kapsula hepatika. Setiap lobus terdiri atas sejumlah lobulus (unit hepar) yang berbentuk poligonal (limas segi lima atau segi enam) </string>
-<string name="berat_hati">Hati manusia memiliki berat sekitar 1,5-2,0 kg dan terdiri atas dua lobus besar yang dibatasi oleh jaringan ikat ligamen falsiformis yaitu lobus kanan dan kiri. Lobus kanan terbagi menjadi tiga lobus yang lebih kecil.</string>
-<string name="fun_hati">Hati berfungsi sebagai alat ekskresi karena membantu fungsi ginjal dengan cara memecah beberapa senyawa yang bersifat racun dan menghasilkan amonia, urea serta asam urat yang akan diekskresikan ke dalam urine.
+    <string name="bronkus">Bronkus merupakan cabang tenggorokan yang tersusun dari tulang rawan yang berbentuk cincin. Bronkus memiliki 2 cabang yang masing-masing menuju paru-paru kanan dan kiri serta berfungsi sebagai jalur udara dari trakea menuju paru-paru. </string>
+    <string name="hati">Hati merupakan kelenjar terbesar yang terletak di dalam rongga perut sebelah kanan, diatas lambung dan di bawah diafragmma. </string>
+    <string name="hati2">Hati dibungkus oleh jaringan ikat padat kapsula hepatika. Setiap lobus terdiri atas sejumlah lobulus (unit hepar) yang berbentuk poligonal (limas segi lima atau segi enam) </string>
+    <string name="berat_hati">Hati manusia memiliki berat sekitar 1,5-2,0 kg dan terdiri atas dua lobus besar yang dibatasi oleh jaringan ikat ligamen falsiformis yaitu lobus kanan dan kiri. Lobus kanan terbagi menjadi tiga lobus yang lebih kecil.</string>
+    <string name="fun_hati">Hati berfungsi sebagai alat ekskresi karena membantu fungsi ginjal dengan cara memecah beberapa senyawa yang bersifat racun dan menghasilkan amonia, urea serta asam urat yang akan diekskresikan ke dalam urine.
 Selain itu, hati berfungsi untuk menghasilkan hal-hal berikut ini :</string>
-<string name="fun_hati1">Menghasilkan enzim glutamat-oksaloasetat transferase, glutamat-piruvat transferase dan laktat dehidrogenase.
+    <string name="fun_hati1">Menghasilkan enzim glutamat-oksaloasetat transferase, glutamat-piruvat transferase dan laktat dehidrogenase.
 </string>
     <string name="fun_hati2">Menyimpan glikogen, lemak, zat besi dan vitamin A, serta B12 </string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </resources>

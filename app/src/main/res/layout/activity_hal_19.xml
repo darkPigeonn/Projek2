@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ln2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:paddingTop="10dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="397dp"
+                android:layout_height="353dp"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/kon_pro"></ImageView>
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="90dp"
+                android:fontFamily="@font/alata_regular"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="@string/kontortus_pro"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+
+            <ImageButton
+                android:id="@+id/btn_close"
+                android:layout_width="165dp"
+                android:layout_height="70dp"
+                android:src="@drawable/button_close"
+                android:layout_marginLeft="119dp"
+                android:layout_marginTop="279dp">
+
+            </ImageButton>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>
+

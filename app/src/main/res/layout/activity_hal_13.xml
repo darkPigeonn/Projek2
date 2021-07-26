@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_medula">
+    <LinearLayout
+        android:id="@+id/ln1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/jingleberry"
+            android:gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="Medula"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="45dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_below="@+id/ln1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ln2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="50dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ln1"
+                android:padding="25dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="390dp"
+                    android:layout_height="206dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/content_sistem"
+                    android:orientation="vertical"
+                    android:padding="9dp">
+
+
+                    <TextView
+                        android:layout_width="244dp"
+                        android:layout_height="154dp"
+                        android:fontFamily="@font/nowregular"
+                        android:gravity="center_horizontal"
+                        android:layout_marginLeft="25dp"
+                        android:padding="8dp"
+                        android:text="@string/content_sistem"
+                        android:textColor="@color/white"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="373dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/atma_medium"
+                        android:padding="8dp"
+                        android:text="FUNGSI SISTEM EKSKRESI"
+                        android:textColor="#082a44"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="353dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/content_sistem2"
+                        android:orientation="vertical">
+
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="85dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/nowregular"
+                                android:justificationMode="inter_word"
+                                android:padding="2dp"
+                                android:text="1."
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_width="293dp"
+                                android:layout_height="113dp"
+                                android:fontFamily="@font/nowregular"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="5dp"
+                                android:padding="2dp"
+                                android:text="@string/content_sistem2"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/nowregular"
+                                android:justificationMode="inter_word"
+                                android:padding="2dp"
+                                android:text="2."
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_width="291dp"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/nowregular"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="5dp"
+                                android:padding="2dp"
+                                android:text="@string/content_sistem3"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/nowregular"
+                                android:justificationMode="inter_word"
+                                android:padding="2dp"
+                                android:text="3."
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_width="294dp"
+                                android:layout_height="57dp"
+                                android:fontFamily="@font/nowregular"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="5dp"
+                                android:padding="2dp"
+                                android:text="@string/content_sistem4"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/nowregular"
+                                android:justificationMode="inter_word"
+                                android:padding="2dp"
+                                android:text="4."
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_width="294dp"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/nowregular"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="5dp"
+                                android:padding="2dp"
+                                android:text="@string/content_sistem5"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+                        </TableRow>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:id="@+id/ln3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <ImageView
+            android:id="@+id/b_menu_materi"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/button_menu"></ImageView>
+
+        <ImageView
+            android:id="@+id/b_home"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/button_home"></ImageView>
+
+        <ImageView
+            android:id="@+id/b_bck"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:background="@drawable/button_back"></ImageView>
+    </LinearLayout>
+
+</RelativeLayout>

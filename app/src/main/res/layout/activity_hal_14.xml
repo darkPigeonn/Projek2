@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ln2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:paddingTop="10dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="417dp"
+                android:layout_height="400dp"
+                android:src="@drawable/kapbow_back"></ImageView>
+
+            <TextView
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="21dp"
+                android:fontFamily="@font/alata_regular"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="@string/kapsul_bow"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="196dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="126dp"
+                android:src="@drawable/kapbow" />
+
+
+            <ImageView
+                android:layout_width="126dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="170dp"
+                android:src="@drawable/arr_right" />
+
+            <TextView
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="235dp"
+                android:layout_marginTop="138dp"
+                android:fontFamily="@font/alata_regular"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="Kapsul Bowman"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="209dp"
+                android:fontFamily="@font/alata_regular"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="Sumber :
+https://socratic.org/questions/how-does-the-structure-of-the-blood-vessels-entering-and-leaving-the-glomerulus-"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <ImageButton
+                android:id="@+id/btn_close"
+                android:layout_width="165dp"
+                android:layout_height="70dp"
+                android:src="@drawable/button_close"
+                android:layout_marginLeft="129dp"
+                android:layout_marginTop="280dp">
+
+            </ImageButton>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>
+
