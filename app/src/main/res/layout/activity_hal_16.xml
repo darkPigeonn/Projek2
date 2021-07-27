@@ -35,17 +35,17 @@
                 android:textSize="18dp" />
 
             <ImageView
-                android:layout_width="122dp"
-                android:layout_height="79dp"
-                android:layout_marginTop="230dp"
+                android:layout_width="142dp"
+                android:layout_height="82dp"
                 android:layout_marginLeft="230dp"
-                android:src="@drawable/img_glome" />
+                android:layout_marginTop="230dp"
+                android:src="@drawable/a_46" />
 
             <ImageView
                 android:layout_width="119dp"
                 android:layout_height="56dp"
                 android:layout_marginLeft="150dp"
-                android:layout_marginTop="240dp"
+                android:layout_marginTop="242dp"
                 android:src="@drawable/arr_left" />
 
             <TextView

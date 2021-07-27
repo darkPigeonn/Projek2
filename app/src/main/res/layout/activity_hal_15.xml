@@ -1,9 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".hal_15">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ln2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:paddingTop="10dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="417dp"
+                android:layout_height="400dp"
+                android:src="@drawable/a_49"></ImageView>
+
+            <TextView
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/alata_regular"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="@string/nefron"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="221dp"
+                android:layout_height="121dp"
+                android:src="@drawable/img_bdnmal"
+                android:layout_marginTop="190dp"
+                android:layout_marginLeft="20dp"/>
+
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="256dp"
+                android:layout_marginTop="180dp"
+                android:fontFamily="@font/mulibold"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="Nefron"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="221dp"
+                android:layout_height="121dp"
+                android:src="@drawable/a_45"
+                android:layout_marginTop="220dp"
+                android:layout_marginLeft="200dp"/>
+
+
+            <TextView
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="290dp"
+                android:fontFamily="@font/alata_regular"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="Sumber :
+https://socratic.org/questions/how-does-the-structure-of-the-blood-vessels-entering-and-leaving-the-glomerulus-"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+
+            <TextView
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="330dp"
+                android:fontFamily="@font/alata_regular"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="Sumber :
+https://www.kenhub.com/en/library/anatomy/kidney-histology"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+
+            <ImageButton
+                android:id="@+id/btn_close"
+                android:layout_width="165dp"
+                android:layout_height="70dp"
+                android:src="@drawable/button_close"
+                android:layout_marginLeft="129dp"
+                android:layout_marginTop="380dp">
+
+            </ImageButton>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>
+
