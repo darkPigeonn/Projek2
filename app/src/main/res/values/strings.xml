@@ -159,5 +159,100 @@ Selain itu, hati berfungsi untuk menghasilkan hal-hal berikut ini :</string>
 </string>
     <string name="fun_hati2">Menyimpan glikogen, lemak, zat besi dan vitamin A, serta B12 </string>
 <string name="nb_hal13">Klik pada bagian nama organ untuk mengetahui lebih lanjut</string>
-
+    <string name="empedu">Empedu berupa cairan berwarna hijau, berjumlah sekitar 0,5 liter setiap hari. Empedu mengandung kolesterol, garam empedu, lesitin dan pigmen bilirubin serta biliverdin yang berwarna hijau kebiruan. Pigmen tersebut akan mengalami oksidasi menjadi urobilin yang menyebabkan warna fases dan urine menjadi kekuningan.</string>
+<string name="trombo">Trombopoietin
+merupakan hormon glikoprotein yang
+mengendalikan produksi keping darah oleh
+sumsum tulang belakang.</string>
+    <string name="arigase">Enzim Arginase
+berperan mengubah arginin menjadi ornitin dan urea</string>
+    <string name="albumin">Albumin merupakan protein utama yang terdapat dalam darah yang diproduksi oleh organ hati. Albumin berfungsi untuk mengatur tekanan dalam pembuluh darah</string>
+<string name="angio">Angiotensinogen
+merupakan hormon yang akan diaktifkan oleh enzim renin ginjal dan berperan untuk meningkatkan tekanan darah</string>
+    <string name="con_gangguan_hati">Hati berperan penting dalam tubuh, ketika seseorang mengalami gangguan pada hati maka fungsi hati akan terganggu. Gangguan tersebut disebabkan oleh berkurangnya sel-sel hati</string>
+    <string name="con_gangguan_hati2">Gangguan pada hati dapat terjadi karena kelainan secara genetik yang menyebabkan tubuh banyak menyerap zat besi dari makanan sehingga zat besi banyak tersimpan di dalam organ tertentu seperti hati, pankreas dan jantung.</string>
+    <string name="sirosis">Sirosis hati merupakan berubahnya sel-sel hati menjadi jaringan ikat fibrosa sehingga hati kehilangan fungsinya. </string>
+<string name="tujuan_obat_sirosis">Tujuan pengobatan sirosis yaitu mencegah kerusakan lebih lanjut dan meredakan gejala yang timbul. Jika organ hati tidak dapat berfungsi, penderita perlu menjalani transplantasi hati, yaitu mengganti organ hati yang rusak dengan organ hati yang sehat dari pendonor.</string>
+    <string name="obat_sirosis1">Mengonsumsi makanan rendah garam untuk mengurangi kelebihan cairan di dalam tubuh.</string>
+    <string name="obat_sirosis2">Mengonsumsi suplemen untuk mengatasi kekurangan nutrisi dan mencegah pengeroposan tulang.</string>
+    <string name="obat_sirosis3">Berhenti konsumsi minuman beralkohol.</string>
+    <string name="obat_sirosis4">Menurunkan berat badan pada penderita sirosis dengan obesitas.</string>
+    <string name="hemokromatosis_con1">Hemokromatosis merupakan kondisi turunan yang menyebabkan tubuh seseorang menyerap terlalu banyak zat besi dari makanan yang dikonsumsi.</string>
+    <string name="hemokromatosis_con2">Kelebihan zat besi pada wanita dapat terbuang melalui darah haid.</string>
+    <string name="hemokromatosis_con3">Hemokromatosis sering kali tidak menimbulkan gejala.  Umumnya pada rentang usia 30-50 tahun mengalami gejala dan hanya sebagian kecil mengalami gejala di usia 15-30 tahun.</string>
+    <string name="hemokromatosis_con4">Penyebab utama adalah kelainan atau mutasi pada gen yang mengatur penyerapan zat besi oleh tubuh. Mutasi gen tersebut dapat diturunkan kepada anak meski orang tua tidak menampakkan gejala hemokromatosis.</string>
+    <string name="hemokromatosis_con5">Hemokromatosis juga dapat disebabkan oleh penyakit autoimun dan zat besi yang menumpuk dengan cepat di organ hati.</string>
+<string name="obat_hemo1">Pengobatan hemokromatosis bertujuan mengembalikan dan menjaga kadar zat besi dalam tubuh, serta mencegah kerusakan organ dan komplikasi akibat penumpukan zat besi. </string>
+    <string name="obat_hemo2">Proses pembuangan darah atau phlebotomy dilakukan seperti donor darah. Seberapa sering dan berapa banyak jumlah darah yang dibuang, tergantung pada usia penderita dan tingkat keparahan hemokromatosis.</string>
+    <string name="obat_hemo3">Pemberikan obat-obatan dalam bentuk pil atau suntik, berguna untuk membantu mengikat dan membuang kelebihan zat besi dalam tubuh melalui urine atau feses. </string>
+    <string name="kulit">Kulit merupakan organ terbesar yang menutupi area tubuh seluas sekitar 1,67 m2 dan berat sekitar 4,5 kg pada laki-laki dengan berat badan 75 kg</string>
+    <string name="fun_kulit1">Kulit juga dapat berfungsi untuk mengatur suhu tubuh dan melindungi tubuh dari mikroorganisme.
+</string>
+    <string name="fun_kulit2">Mengeluarkan kotoran, racun, dan senyawa mineral berlebih melalui keringat. </string>
+    <string name="epidermis">Epidermis merupakan bagian terluar kulit yang tersusun dari sel-sel epitel pipih berlapis banyak dengan susunan yang sangat rapat dan mengalami keratinasi. </string>
+    <string name="epidermis2">Epidermis yang sangat tebal terdapat pada telapak tangan  dan kaki. </string>
+    <string name="keratinisasi">Keratinisasi adalah proses sel-sel pada epidermis menjadi dewasa. Sel bergerak ke atas melalui lapisan epidermis dan menyisakan keratin yang keras (stratum korneum) pada lapisan luar dari kulit.</string>
+    <string name="korneum">Stratum korneum merupakan lapisan epidermis paling atas dan terdiri dari 25-30 lapisan sisik dari sel-sel yang tidak hidup. Lapisan ini akan diganti oleh sel-sel dari dasar ke atas setiap 15-30 hari</string>
+    <string name="lusidum">Stratum lusidum merupakan lapisan jernih dan transparan yang terdiri dari 4-7 lapisan sel pipih tidak berinti yang mati atau hampir mati</string>
+    <string name="granulosum">Stratum granulosum terdiri dari 3-5 lapisan sel-sel bergranula keratohialin yang merupakan prekursor dalam pembentukan keratin</string>
+    <string name="spinosum">Stratum spinosum  merupakan lapisan sel-sel spina (tanduk) yang memiliki tonjolan penghubung intraseluler (desmosom)
+</string>
+    <string name="basalis">Stratum basalis (germinativum)  merupakan lapisan sel-sel yang melekat pada jaringan ikat dari lapisan kulit di bawahnya (Dermis). Dibawah dan diantara sel-sel terdapat melanosit yang menghasilkan pigmen melanin. </string>
+    <string name="basalis2">Melanin berfungsi untuk perwarnaan kulit dan melindungi kulit dari bahaya radiasi sinar ultraviolet matahari. Produksi melanin akan meningkat jika kulit terpapar cahaya matahari</string>
+    <string name="hipodermis1">Hipodermis merupakan lapisan yang mengikat kulit secara longgar dengan organ-organ yang terdapat dibawahnya. Lapisan ini banyak mengandung sel lemak, pembuluh darah dan ujung saraf.</string>
+    <string name="hipodermis2">Hipodermis mengandung 50% lemak tubuh yang berfungsi sebagai pelapis dan penyekat pada tubuh.</string>
+    <string name="jerawat1">Jerawat adalah peradangan yang terjadi ketika folikel rambut atau tempat tumbuhnya rambut tersumbat oleh minyak dan sel kulit mati.</string>
+    <string name="jerawat2">Jerawat terdapat di bagian tubuh dengan kelenjar minyak berlebih yaitu di wajah, leher, bagian atas dada, dan punggung.</string>
+    <string name="ciri_jerawat">Munculnya benjolan kecil (yang terkadang berisi nanah) dengan ukuran yang bervariasi dari ukuran kecil hingga besar, berwarna merah dan terkadang menimbulkan rasa nyeri.</string>
+    <string name="cara_atasi">Jerawat menimbulkan rasa tidak nyaman dan menurunkan kepercayaan diri, terutama jerawat pada wajah. Cara mengatasi jerawat dapat dilakukan secara alami maupun perawatan kulit ke dokter. Berikut merupakan cara untuk mengatasi jerawat :</string>
+    <string name="atasi_jerawat1">Rutin membersihkan wajah</string>
+    <string name="atasi_jerawat2">Menjaga pola makan </string>
+    <string name="atasi_jerawat3">Mengelola stres dan pola tidur dengan baik</string>
+    <string name="atasi_jerawat4">Menggunakan bahan alami atau produk anti jerawat</string>
+    <string name="atasi_jerawat5">Hindari pakaian ketat
+</string>
+    <string name="atasi_jerawat6">Mandi secara teratur dan menggunakan sabun khusus</string>
+    <string name="atasi_jerawat7">Menjaga pola makan</string>
+    <string name="atasi_jerawat8">Mencuci rambut </string>
+    <string name="bersih_wajah1">Jika telah beraktivitas seharian/menggunakan make up dapat membersihkan wajah menggunakan cleanser terlebih dahulu kemudian mencuci wajah dengan sabun.
+</string>
+    <string name="bersih_wajah2">Membersihkan wajah minimal 2 kali dalam sehari menggunakan sabun wajah untuk mengangkat sel-sel kulit mati, minyak yang berlebihan dan sisa kosmetik.
+</string>
+    <string name="bersih_wajah3">Tidak memencet dan memegang jerawat, karena dapat menyebabkan jerawat bertambah banyak.
+</string>
+    <string name="bersih_wajah4">Hindari menggosok wajah menggunakan kain atau sarung tangan dengan permukaan kasar.
+</string>
+    <string name="pola_makan1">Makanan yang dapat menimbulkan kulit berjerawat yaitu makanan yang meningkatkan gula darah sehingga kadar insulin meningkat. Peningkatan insulin di dalam tubuh menyebabkan produksi minyak di kulit akan meningkat, sehingga lebih rentan berjerawat.</string>
+    <string name="pola_makan2">Makanan yang mengandung kadar gula tinggi seperti kue manis, soda, dan jus buah dengan tambahan susu dan gula dapat menimbulkan jerawat. Kandungan glukosa yang tinggi dapat meningkatkan kadar insulin dan menyebabkan jerawat.</string>
+    <string name="pola_makan3">Produk susu, keju, dan olahan susu lainnya dapat menyebabkan jerawat jika dikonsumsi secara berlebihan. Hal ini karena meningkatkan sekresi insulin dan produksi hormon yang mengontrol jerawat.</string>
+    <string name="pola_makan4">Makanan berlemak tinggi seperti makanan cepat saji dapat meningkatkan risiko terkena jerawat. </string>
+    <string name="pola_makan5">Semua jenis buah dan sayur baik untuk kesehatan kulit sehingga dapat dikonsumsi setiap hari. Seperti lemon, cherry dan jenis berry (strawberry, blueberry, goji berry) yang tinggi akan antioxidant. Konsumsi air putih yang  cukup dapat  menjaga kelembapan kulit dari dalam. </string>
+    <string name="kelola_stress">Meningkatnya stres dapat memicu glukokorticoid, sehingga dapat merusak struktur dan fungsi kulit. Mengatur pola tidur yaitu 8 jam dan  berolahraga dapat mengurangi stres.</string>
+    <string name="bahan_alami1">Madu mengandung antioksidan yang berfungsi untuk membunuh bakteri penyebab jerawat. Madu dapat melembabkan kulit sehingga kulit menjadi lebih halus, mengurangi minyak berlebih dan menyembuhkan jerawat.</string>
+    <string name="bahan_alami2">Lidah buaya bermanfaat untuk menstimulasi pembentukan jaringan epidermis dan membantu proses regenerai sel kulit. Gel lidah buaya dapat mengatasi pertumbuhan bakteri penyebab jerawat karena mengandung saponin dan antrakuinon yang mampu menghambat pertumbuhan bakteri dan kapang.</string>
+    <string name="bahan_alami3">Air perasan jeruk
+nipis memiliki kandungan senyawa saponin dan
+flavonoid yang berfungsi sebagai antibakteri sehingga dapat mengatasi bakteri penyebab jerawat. Bakteri penyebab jerawat seperti <i>Propionibacterium acnes, Staphylococcus epidermis dan Staphylococcus aureus</i> </string>
+    <string name="bahan_alami4">Mengatasi jerawat dapat menggunakan krim atau obat antijerawat yang direkomendasi dari dokter. Selain itu, penggunaan skincare sangatlah penting seperti penggunaan cleanser, facial wash, toner, serum, pelembab/moisturizer
+</string>
+    <string name="baju_ketat">Hindari menggunakan pakaian ketat untuk meminimalkan gesekan ketika berkeringat karena dapat memperparah jerawat punggung. Gunakan pakaian yang dapat menyerap keringat seperti katun yang akan menyerap keringat dan minyak yang dihasilkan di punggung.</string>
+    <string name="mandi">Tubuh yang banyak mengeluarkan keringat seperti berolahraga atau kepanasan dapat menyebabkan penyumbatan folikel rambuh. Jerawat punggung lebih mudah tumbuh pada kondisi seperti itu, oleh karena itu segera mandi setelah beraktivitas dan mandi secara teratur 2 kali sehari.  Sabun mandi khusus yang diformulasikan dengan salicylic acid dapat digunakan.</string>
+    <string name="keramas">Mencuci rambut harus dilakukan dengan bersih karena produk rambut seperti kondisioner dan sampo dapat menyumbat pori-pori dan menyebabkan jerawat di punggung. Mencuci rambut dapat dilakukan dengan membilas rambut ke arah depan (rambut diarahkan ke depan dan membungkuk) kemudian bilas ke depan untuk menghindari sisa sampo dan kondisioner di punggung Anda.</string>
+    <string name="kudis">Kudis merupakan infeksi tungau yang mudah menular, baik secara kontak langsung atau tidak. Kontak langsung seperti berpelukan dan berhubungan seksual. Secara tidak langsung seperti berbagi peggunaan pakaian atau tempat tidur dengan penderita kudis.
+</string>
+<string name="gejala_kudis1">Muncul rasa gatal hebat, terutama saat malam hari karena tungau kudis menaruh telurnya ke dalam kulit.
+</string>
+    <string name="gejala_kudis2">Muncul ruam bintik-bintik menyerupai jerawat.
+</string>
+    <string name="gejala_kudis3">Rasa gatal muncul di sela-sela jari, telapak tangan, ketiak, selangkangan, dan daerah lipatan lain.
+</string>
+    <string name="gejala_kudis4">Ruam akibat kudis juga bisa menjadi luka bila penderita menggaruk kulitnya.</string>
+    <string name="penyebab_kudis">Kudis disebabkan oleh tungau <i>Sarcoptes scabiei.</i>   Tungau menggali lubang menyerupai terowongan pada kulit untuk bertahan hidup di lapisan stratum korneum kulit manusia yang berisi telur, tungau, dan hasil metabolisme
+</string>
+    <string name="atasi_kudis1">Menggunakan obat yang sesuai dengan resep dokter (biasanya berupa krim/salep yang dioleskan pada tubuh)
+</string>
+    <string name="atasi_kudis2">Mengganti handuk, pakaian, gorden, sprei, sarung bantal dan guling secara rutin. Sebelum di cuci, di rendam air panas terlebih dahulu.
+</string>
+    <string name="atasi_kudis3">Untuk mengurangi gatal dapat berendam di air dingin atau menempelkan kain basah pada area kulit yang gatal.
+</string>
 </resources>
