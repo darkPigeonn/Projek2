@@ -158,21 +158,21 @@ Selain itu, hati berfungsi untuk menghasilkan hal-hal berikut ini :</string>
     <string name="fun_hati1">Menghasilkan enzim glutamat-oksaloasetat transferase, glutamat-piruvat transferase dan laktat dehidrogenase.
 </string>
     <string name="fun_hati2">Menyimpan glikogen, lemak, zat besi dan vitamin A, serta B12 </string>
-<string name="nb_hal13">Klik pada bagian nama organ untuk mengetahui lebih lanjut</string>
+    <string name="nb_hal13">Klik pada bagian nama organ untuk mengetahui lebih lanjut</string>
     <string name="empedu">Empedu berupa cairan berwarna hijau, berjumlah sekitar 0,5 liter setiap hari. Empedu mengandung kolesterol, garam empedu, lesitin dan pigmen bilirubin serta biliverdin yang berwarna hijau kebiruan. Pigmen tersebut akan mengalami oksidasi menjadi urobilin yang menyebabkan warna fases dan urine menjadi kekuningan.</string>
-<string name="trombo">Trombopoietin
+    <string name="trombo">Trombopoietin
 merupakan hormon glikoprotein yang
 mengendalikan produksi keping darah oleh
 sumsum tulang belakang.</string>
     <string name="arigase">Enzim Arginase
 berperan mengubah arginin menjadi ornitin dan urea</string>
     <string name="albumin">Albumin merupakan protein utama yang terdapat dalam darah yang diproduksi oleh organ hati. Albumin berfungsi untuk mengatur tekanan dalam pembuluh darah</string>
-<string name="angio">Angiotensinogen
+    <string name="angio">Angiotensinogen
 merupakan hormon yang akan diaktifkan oleh enzim renin ginjal dan berperan untuk meningkatkan tekanan darah</string>
     <string name="con_gangguan_hati">Hati berperan penting dalam tubuh, ketika seseorang mengalami gangguan pada hati maka fungsi hati akan terganggu. Gangguan tersebut disebabkan oleh berkurangnya sel-sel hati</string>
     <string name="con_gangguan_hati2">Gangguan pada hati dapat terjadi karena kelainan secara genetik yang menyebabkan tubuh banyak menyerap zat besi dari makanan sehingga zat besi banyak tersimpan di dalam organ tertentu seperti hati, pankreas dan jantung.</string>
     <string name="sirosis">Sirosis hati merupakan berubahnya sel-sel hati menjadi jaringan ikat fibrosa sehingga hati kehilangan fungsinya. </string>
-<string name="tujuan_obat_sirosis">Tujuan pengobatan sirosis yaitu mencegah kerusakan lebih lanjut dan meredakan gejala yang timbul. Jika organ hati tidak dapat berfungsi, penderita perlu menjalani transplantasi hati, yaitu mengganti organ hati yang rusak dengan organ hati yang sehat dari pendonor.</string>
+    <string name="tujuan_obat_sirosis">Tujuan pengobatan sirosis yaitu mencegah kerusakan lebih lanjut dan meredakan gejala yang timbul. Jika organ hati tidak dapat berfungsi, penderita perlu menjalani transplantasi hati, yaitu mengganti organ hati yang rusak dengan organ hati yang sehat dari pendonor.</string>
     <string name="obat_sirosis1">Mengonsumsi makanan rendah garam untuk mengurangi kelebihan cairan di dalam tubuh.</string>
     <string name="obat_sirosis2">Mengonsumsi suplemen untuk mengatasi kekurangan nutrisi dan mencegah pengeroposan tulang.</string>
     <string name="obat_sirosis3">Berhenti konsumsi minuman beralkohol.</string>
@@ -182,7 +182,7 @@ merupakan hormon yang akan diaktifkan oleh enzim renin ginjal dan berperan untuk
     <string name="hemokromatosis_con3">Hemokromatosis sering kali tidak menimbulkan gejala.  Umumnya pada rentang usia 30-50 tahun mengalami gejala dan hanya sebagian kecil mengalami gejala di usia 15-30 tahun.</string>
     <string name="hemokromatosis_con4">Penyebab utama adalah kelainan atau mutasi pada gen yang mengatur penyerapan zat besi oleh tubuh. Mutasi gen tersebut dapat diturunkan kepada anak meski orang tua tidak menampakkan gejala hemokromatosis.</string>
     <string name="hemokromatosis_con5">Hemokromatosis juga dapat disebabkan oleh penyakit autoimun dan zat besi yang menumpuk dengan cepat di organ hati.</string>
-<string name="obat_hemo1">Pengobatan hemokromatosis bertujuan mengembalikan dan menjaga kadar zat besi dalam tubuh, serta mencegah kerusakan organ dan komplikasi akibat penumpukan zat besi. </string>
+    <string name="obat_hemo1">Pengobatan hemokromatosis bertujuan mengembalikan dan menjaga kadar zat besi dalam tubuh, serta mencegah kerusakan organ dan komplikasi akibat penumpukan zat besi. </string>
     <string name="obat_hemo2">Proses pembuangan darah atau phlebotomy dilakukan seperti donor darah. Seberapa sering dan berapa banyak jumlah darah yang dibuang, tergantung pada usia penderita dan tingkat keparahan hemokromatosis.</string>
     <string name="obat_hemo3">Pemberikan obat-obatan dalam bentuk pil atau suntik, berguna untuk membantu mengikat dan membuang kelebihan zat besi dalam tubuh melalui urine atau feses. </string>
     <string name="kulit">Kulit merupakan organ terbesar yang menutupi area tubuh seluas sekitar 1,67 m2 dan berat sekitar 4,5 kg pada laki-laki dengan berat badan 75 kg</string>
@@ -240,7 +240,7 @@ flavonoid yang berfungsi sebagai antibakteri sehingga dapat mengatasi bakteri pe
     <string name="keramas">Mencuci rambut harus dilakukan dengan bersih karena produk rambut seperti kondisioner dan sampo dapat menyumbat pori-pori dan menyebabkan jerawat di punggung. Mencuci rambut dapat dilakukan dengan membilas rambut ke arah depan (rambut diarahkan ke depan dan membungkuk) kemudian bilas ke depan untuk menghindari sisa sampo dan kondisioner di punggung Anda.</string>
     <string name="kudis">Kudis merupakan infeksi tungau yang mudah menular, baik secara kontak langsung atau tidak. Kontak langsung seperti berpelukan dan berhubungan seksual. Secara tidak langsung seperti berbagi peggunaan pakaian atau tempat tidur dengan penderita kudis.
 </string>
-<string name="gejala_kudis1">Muncul rasa gatal hebat, terutama saat malam hari karena tungau kudis menaruh telurnya ke dalam kulit.
+    <string name="gejala_kudis1">Muncul rasa gatal hebat, terutama saat malam hari karena tungau kudis menaruh telurnya ke dalam kulit.
 </string>
     <string name="gejala_kudis2">Muncul ruam bintik-bintik menyerupai jerawat.
 </string>
