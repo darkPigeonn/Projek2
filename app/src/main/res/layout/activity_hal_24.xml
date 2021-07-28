@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hal24_back">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/bobbyjonesoft"
+            android:gravity="center_horizontal"
+            android:text="GANGGUAN PADA GINJAL"
+            android:textColor="#082a44"
+            android:textSize="38dp"
+            android:background="@drawable/hal24_judul"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/hal24_con1"
+                    android:layout_marginRight="18dp"></ImageButton>
+
+
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/hal24_con5"></ImageButton>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:background="@drawable/hal24_con2"
+                android:layout_marginRight="18dp"></ImageButton>
+
+
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:background="@drawable/hal24_con4"></ImageButton>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:background="@drawable/hal24_con3"
+                android:layout_marginRight="18dp"></ImageButton>
+
+
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:background="@drawable/hal24_con6"></ImageButton>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="216dp"
+            android:layout_height="62dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/oval"
+            android:orientation="horizontal"
+            android:scaleX="1"
+            android:scaleY="1">
+
+            <TextView
+                android:layout_width="216dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/alata_regular"
+                android:gravity="center"
+                android:text="@string/nb_hal6c"
+                android:textColor="@color/black"
+                android:textSize="14sp"></TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:scaleX="1"
+            android:scaleY="1">
+
+            <ImageView
+                android:id="@+id/b_menu_materi"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/button_menu"></ImageView>
+
+            <ImageView
+                android:id="@+id/b_home"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/button_home"></ImageView>
+
+            <ImageView
+                android:id="@+id/b_bck"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:background="@drawable/button_back"></ImageView>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

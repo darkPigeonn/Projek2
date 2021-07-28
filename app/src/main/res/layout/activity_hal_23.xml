@@ -6,7 +6,6 @@
     android:background="@drawable/hal23_back_1">
 
  <LinearLayout
-        android:id="@+id/ln1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -24,12 +23,18 @@
             android:text="Fungsi Ginjal"
             android:textColor="#082a44"
             android:textSize="55dp" />
-    </LinearLayout>
+ </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="90dp">
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/ln1">
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:id="@+id/ln2"
@@ -41,7 +46,7 @@
 
                 <FrameLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="812dp">
+                    android:layout_height="712dp">
 
                     <LinearLayout
                         android:layout_width="413dp"
@@ -123,111 +128,161 @@
 
                     <pl.droidsonroids.gif.GifImageView
                         android:layout_width="189dp"
-                        android:layout_height="245dp"
-                        android:layout_marginTop="300dp"
+                        android:layout_height="225dp"
+                        android:layout_marginTop="280dp"
                         android:src="@drawable/hal_22"></pl.droidsonroids.gif.GifImageView>
 
+                    <LinearLayout
+                        android:layout_width="280dp"
+                        android:layout_height="248dp"
+                        android:layout_marginLeft="130dp"
+                        android:layout_marginTop="380dp"
+                        android:background="@drawable/hal23_con2"
+                        android:orientation="vertical">
+
                         <TableRow
-                        android:layout_width="307dp"
-                        android:layout_height="260dp"
-                        android:layout_marginLeft="100dp"
-                        android:layout_marginTop="460dp"
-                        android:background="@drawable/hal23_con2">
+                            android:layout_width="260dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="50dp">
 
                             <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/alata_regular"
-                            android:text="1."
-                            android:textColor="@color/black"
-                            android:textSize="15sp" />
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="1."
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/alata_regular"
-                            android:text="@string/fun_1"
-                            android:textColor="@color/white"
-                            android:textSize="15dp" />
-                    </TableRow>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="@string/fun_4"
+                                android:textColor="@color/black"
+                                android:textSize="15dp" />
+                        </TableRow>
 
-                    <TableRow
-                        android:layout_width="307dp"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="5dp">
+                        <TableRow
+                            android:layout_width="250dp"
+                            android:layout_height="89dp"
+                            android:layout_marginLeft="25dp">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/alata_regular"
-                            android:text="2."
-                            android:textColor="@color/white"
-                            android:textSize="15sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="2."
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/alata_regular"
-                            android:text="@string/fun_2"
-                            android:textColor="@color/white"
-                            android:textSize="15dp" />
-                    </TableRow>
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="595dp"
-                        android:src="@drawable/hal22_con3"></ImageView>
-
-                    <TextView
-                        android:layout_width="210dp"
-                        android:layout_height="190dp"
-                        android:layout_marginLeft="140dp"
-                        android:layout_marginTop="595dp"
-                        android:fontFamily="@font/montserrat"
-                        android:gravity="center_horizontal"
-                        android:padding="8dp"
-                        android:text="@string/uk_2"
-                        android:textColor="@color/black"
-                        android:textSize="18dp" />
+                            <TextView
+                                android:layout_width="230dp"
+                                android:layout_height="82dp"
+                                android:layout_marginTop="3dp"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="@string/fun_5"
+                                android:textColor="@color/black"
+                                android:textSize="15dp" />
+                        </TableRow>
+                    </LinearLayout>
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="190dp"
-                        android:layout_marginTop="585dp"
-                        android:src="@drawable/hal22_con2"></ImageView>
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="565dp"
+                        android:src="@drawable/hal23_con3"></ImageView>
 
                     <TextView
-                        android:layout_width="210dp"
-                        android:layout_height="85dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="585dp"
+                        android:layout_width="150dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="545dp"
                         android:fontFamily="@font/alata_regular"
                         android:gravity="center_horizontal"
-                        android:padding="8dp"
-                        android:text="Sumber :
-https://www.zazzle.com.br/cartao_postal_anatomia_do_sistema_urinario_masculino-239409881421765569"
+                        android:padding="2dp"
+                        android:text="Sumber : https://www.dheerajv.com/medical-illustration"
                         android:textColor="@color/black"
                         android:textSize="12dp" />
-
-
-                    <ImageButton
-                        android:id="@+id/btn_close"
-                        android:layout_width="165dp"
-                        android:layout_height="70dp"
-                        android:layout_marginLeft="100dp"
-                        android:layout_marginTop="742dp"
-                        android:src="@drawable/button_close">
-
-                    </ImageButton>
                 </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="60dp"
+                    android:orientation="horizontal"
+                    android:scaleX="1"
+                    android:scaleY="1">
+
+                    <TextView
+                        android:id="@+id/b_ganggu_ginjal"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/button_gangguginjal"
+                        android:fontFamily="@font/atma_medium"
+                        android:gravity="center"
+                        android:text="GANGUAN PADA GINJAL"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"></TextView>
+
+                    <TextView
+                        android:id="@+id/b_proses_bentuk"
+                        android:layout_width="140dp"
+                        android:layout_height="68dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/button_proses"
+                        android:fontFamily="@font/atma_medium"
+                        android:gravity="center"
+                        android:text="PROSES PEMBENTUKAN URINE"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="100dp"
+                    android:scaleX="1"
+                    android:scaleY="1">
+
+                    <TextView
+                        android:layout_width="224dp"
+                        android:layout_height="58dp"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/alata_regular"
+                        android:gravity="center"
+                        android:text="@string/nb_hal6c"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"></TextView>
+                </LinearLayout>
             </LinearLayout>
         </ScrollView>
-
-
-
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <ImageView
+            android:id="@+id/btnbck"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:background="@drawable/button_back"></ImageView>
+    </LinearLayout>
+
 </RelativeLayout>
 

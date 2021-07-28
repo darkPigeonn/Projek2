@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hal25_back">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/hal25_con7">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hal25_judul"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/specialelite"
+                android:gravity="center_horizontal"
+                android:text="ALBUMINURIA"
+                android:textAlignment="center"
+                android:textColor="#082a44"
+                android:textSize="38dp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="90dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="50dp">
+
+                 <TextView
+                    android:layout_width="348dp"
+                    android:layout_height="161dp"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/alata_regular"
+                    android:gravity="center"
+                    android:text="@string/albu"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+                        android:background="@drawable/hal25_con2">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="160dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="Gejala"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="1."
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="161dp"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="@string/gejala_1"
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="12dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="2."
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="@string/gejala_2"
+                                android:textColor="@color/black"
+                                android:textSize="15dp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="12dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="3."
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="@string/gejala_3"
+                                android:textColor="@color/black"
+                                android:textSize="15dp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="12dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="4."
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="66dp"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="@string/gejala_4"
+                                android:textColor="@color/black"
+                                android:textSize="15dp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="12dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="5."
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="@string/gejala_5"
+                                android:textColor="@color/black"
+                                android:textSize="15dp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="12dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="6."
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="@string/gejala_6"
+                                android:textColor="@color/black"
+                                android:textSize="15dp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/hal25_con1"
+                        android:layout_marginLeft="290dp"
+                        android:layout_marginTop="25dp">
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="260dp"
+                        android:layout_marginTop="140dp"
+                        android:text="Sumber : https://pixelatedplanet.net/2018/11/10-potential-warning-signs-that-your-kidneys-are-not-working-correctly/"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:textAlignment="center">
+                    </TextView>
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="172dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/hal25_con2"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Penyebab"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="@string/penyebab"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+                    </TableRow>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/hal25_con7"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/hal25_con6" />
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="32dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:gravity="center_horizontal"
+                            android:text="Cara Mengatasi"
+                            android:textAlignment="center"
+                            android:textColor="#082a44"
+                            android:textSize="18dp" />
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="50dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="1."
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="254dp"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="@string/atasi_1"
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="24dp"
+                            android:layout_marginTop="220dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="2."
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="387dp"
+                                android:layout_height="24dp"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="@string/atasi_2"
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="72dp"
+                            android:layout_marginTop="280dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="3."
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="390dp"
+                                android:layout_height="24dp"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="@string/atasi_3"
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+                        </TableRow>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/hal25_con4"
+                            android:layout_marginLeft="270dp"
+                            android:layout_marginTop="50dp">
+                        </ImageView>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="340dp"
+                            android:layout_marginTop="50dp"
+                            android:src="@drawable/hal25_con3"></ImageView>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="270dp"
+                            android:layout_marginTop="120dp"
+                            android:src="@drawable/hal25_con5"></ImageView>
+
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <ImageView
+            android:id="@+id/btnbck"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:background="@drawable/button_back"></ImageView>
+    </LinearLayout>
+
+</RelativeLayout>
+
