@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ln1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:paddingTop="10dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="417dp"
+                android:layout_height="337dp"
+                android:src="@drawable/hal27_back"></ImageView>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="345dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:fontFamily="@font/alata_regular"
+                    android:gravity="center_horizontal"
+                    android:padding="8dp"
+                    android:text="Cara Mengatasi"
+                    android:textColor="@color/black"
+                    android:textSize="22dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="335dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alata_regular"
+                    android:gravity="center_horizontal"
+                    android:padding="8dp"
+                    android:text="1."
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="327dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:fontFamily="@font/alata_regular"
+                    android:padding="8dp"
+                    android:text="@string/atasi_batu1"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="335dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="40dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alata_regular"
+                    android:gravity="center_horizontal"
+                    android:padding="8dp"
+                    android:text="2."
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+                <TextView
+                    android:layout_width="327dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:fontFamily="@font/alata_regular"
+                    android:padding="8dp"
+                    android:text="@string/atasi_batu2"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="40dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alata_regular"
+                    android:gravity="center_horizontal"
+                    android:padding="8dp"
+                    android:text="3."
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:fontFamily="@font/alata_regular"
+                    android:padding="8dp"
+                    android:text="@string/atasi_batu3"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="199dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="280dp"
+                android:layout_marginLeft="210dp"
+                android:src="@drawable/hal_27"></pl.droidsonroids.gif.GifImageView>
+
+            <ImageButton
+                android:id="@+id/btn_close"
+                android:layout_width="155dp"
+                android:layout_height="60dp"
+                android:src="@drawable/button_close"
+                android:layout_marginLeft="59dp"
+                android:layout_marginTop="310dp">
+
+            </ImageButton>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>
+

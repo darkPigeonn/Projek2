@@ -280,8 +280,7 @@
             android:layout_marginTop="19dp"
             android:text="Latihan Soal"
             android:textColor="@color/black"
-            android:fontFamily="@font/nunitosansbold"
-            android:background=""></Button>
+            android:fontFamily="@font/nunitosansbold"></Button>
 
         <Button
             android:id="@+id/btn_video"
@@ -292,7 +291,6 @@
             android:text="Video"
             android:textColor="@color/black"
             android:fontFamily="@font/nunitosansbold"
-            android:background=""
             android:textSize="18dp"></Button>
     </LinearLayout>
 
