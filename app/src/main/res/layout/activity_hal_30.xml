@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hal30_back">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="208dp"
+            android:layout_height="59dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/jingleberry"
+            android:gravity="center_horizontal"
+            android:text="DIABETES INSIPIDUS"
+            android:textAlignment="center"
+            android:textColor="#082a44"
+            android:textSize="21sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="90dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="50dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="325dp"
+                    android:background="@drawable/hal30_con1">
+
+                    <TextView
+                        android:layout_width="331dp"
+                        android:layout_height="215dp"
+                        android:layout_marginLeft="70dp"
+                        android:fontFamily="@font/alata_regular"
+                        android:text="@string/insipidus"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="81dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/hal30_con6">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/mulibold"
+                        android:text="Gejala"
+                        android:textAlignment="center"
+                        android:textColor="#082a44"
+                        android:textSize="22dp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="408dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="76dp"
+                        android:layout_marginLeft="20dp">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="70dp"
+                                android:src="@drawable/hal30_9"></ImageView>
+
+                            <TextView
+                                android:layout_width="163dp"
+                                android:layout_height="57dp"
+                                android:layout_gravity="center"
+
+                                android:fontFamily="@font/alata_regular"
+                                android:text="Polydipsia (sering merasa haus)"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"></TextView>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="70dp"
+                                android:src="@drawable/hal30_9"></ImageView>
+
+                            <TextView
+                                android:layout_width="163dp"
+                                android:layout_height="57dp"
+                                android:layout_gravity="center"
+
+                                android:fontFamily="@font/alata_regular"
+                                android:text="Poliuria (sering buang air kecil)"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"></TextView>
+                        </FrameLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="135dp"
+                        android:layout_marginLeft="20dp">
+
+                        <ImageView
+                            android:layout_width="172dp"
+                            android:layout_height="112dp"
+                            android:src="@drawable/hal30_3"></ImageView>
+
+                        <ImageView
+                            android:layout_width="172dp"
+                            android:layout_height="112dp"
+                            android:src="@drawable/hal30_4_1"></ImageView>
+                    </TableRow>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="408dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="76dp"
+                        android:layout_marginLeft="20dp">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="70dp"
+                                android:src="@drawable/hal30_9"></ImageView>
+
+                            <TextView
+                                android:layout_width="163dp"
+                                android:layout_height="57dp"
+                                android:layout_gravity="center"
+
+                                android:fontFamily="@font/alata_regular"
+                                android:text="Nokturia (buang air kecil berlebih pada malam hari)"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="12sp"></TextView>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="70dp"
+                                android:src="@drawable/hal30_9"></ImageView>
+
+                            <TextView
+                                android:layout_width="163dp"
+                                android:layout_height="57dp"
+                                android:layout_gravity="center"
+
+                                android:fontFamily="@font/alata_regular"
+                                android:text="Lemas dan lesu"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"></TextView>
+                        </FrameLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="135dp"
+                        android:layout_marginLeft="20dp">
+
+                        <ImageView
+                            android:layout_width="172dp"
+                            android:layout_height="112dp"
+                            android:src="@drawable/hal30_5_1"></ImageView>
+
+                        <ImageView
+                            android:layout_width="172dp"
+                            android:layout_height="112dp"
+                            android:src="@drawable/hal30_8"></ImageView>
+                    </TableRow>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/hal30_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/mulibold"
+                        android:text="Penyebab dan Jenis Diabetes"
+                        android:textAlignment="center"
+                        android:textColor="#082a44"
+                        android:textSize="18dp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="408dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/hal30_con7"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="238dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:fontFamily="@font/alata_regular"
+                        android:text="Diabetes Insipidus Kranial"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"></TextView>
+
+                    <TextView
+                        android:layout_width="368dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/alata_regular"
+                        android:text="@string/insipi_kranil"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="408dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/hal30_con7"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="263dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:fontFamily="@font/alata_regular"
+                        android:text="Diabetes Insipidus Nefrogenik"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"></TextView>
+
+                    <TextView
+                        android:layout_width="368dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/alata_regular"
+                        android:text="@string/insipi_nefro"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="133dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/judul_materi">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunitosansbold"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:onClick="b_caratasi_insipi"
+                        android:text="Cara Mengatasi"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunitosansbold"
+                        android:text="@string/nb_hal6c"
+                        android:textAlignment="center"
+                        android:textColor="@color/white">
+
+                    </TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <ImageView
+            android:id="@+id/btnbck"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:background="@drawable/button_back"></ImageView>
+    </LinearLayout>
+
+</RelativeLayout>
+
