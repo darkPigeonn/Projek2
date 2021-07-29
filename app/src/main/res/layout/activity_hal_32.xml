@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hal32_back">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="408dp"
+            android:layout_height="88dp">
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/hal28_con2"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/specialelite"
+                    android:text="Anuria"
+                    android:textAlignment="center"
+                    android:textColor="#7da7df"
+                    android:textSize="40dp"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata_regular"
+                        android:text="@string/anuaria"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/hal32_11">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:fontFamily="@font/opensansextrabold"
+                        android:text="Gejala"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"></TextView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="175dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/hal28_con11"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="Hematuria (terdapat darah dalam urine)"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="174dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="35dp"
+                                android:background="@drawable/hal28_con11"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="Nyeri pada pinggang bagian samping"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="175dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/hal32_1" />
+
+                            <ImageView
+                                android:layout_width="175dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:src="@drawable/hal32_2" />
+                        </TableRow>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="175dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/hal28_con11"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="Pergelangan tangan dan kaki membengkak"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="174dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="35dp"
+                                android:background="@drawable/hal28_con11"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="Mual dan muntah"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="175dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/hal32_3" />
+
+                            <ImageView
+                                android:layout_width="175dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:src="@drawable/hal32_4" />
+                        </TableRow>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="175dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/hal28_con11"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="Nafsu makan menurun"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="174dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="35dp"
+                                android:background="@drawable/hal28_con11"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="Lemas dan lesu"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="175dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/hal32_5" />
+
+                            <ImageView
+                                android:layout_width="175dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:src="@drawable/hal32_6" />
+                        </TableRow>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="175dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/hal28_con11"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="Sulit buang air kecil "
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="175dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/hal32_7" />
+                        </TableRow>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="283dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp">
+
+                    <LinearLayout
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="140dp"
+                        android:background="@drawable/hal32_8">
+
+                        <TextView
+                            android:layout_width="135dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Penyebab"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="24sp"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="403dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/alata_regular"
+                        android:text="Anuria di sebabkan oleh beberapa penyakit yang mengakibatkan fungsi ginjal menurun, yaitu :"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:background="@drawable/hal32_9"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="1."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp"></TextView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="Batu ginjal"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp"></TextView>
+                            </TableRow>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="@string/anur_batu"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp"></TextView>
+                            </TableRow>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="10dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="2."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp"></TextView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="Tekanan darah tinggi"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp"></TextView>
+                            </TableRow>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="@string/anur_tekanan"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp"></TextView>
+                            </TableRow>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="10dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="3."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp"></TextView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="Gagal ginjal"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp"></TextView>
+                            </TableRow>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="@string/anur_gagal"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp"></TextView>
+                            </TableRow>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="148dp"
+                        android:layout_height="79dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/hal32_10">
+
+                        <TextView
+                            android:onClick="btn_atasi_anuria"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/opensansextrabold"
+                            android:text="Cara Mengatasi"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:paddingBottom="30dp">
+
+                    <LinearLayout
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="@string/nb_hal6c"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <ImageView
+            android:id="@+id/b_bck"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:background="@drawable/button_back"></ImageView>
+    </LinearLayout>
+
+</RelativeLayout>
