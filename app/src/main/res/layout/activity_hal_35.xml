@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hal35_back">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bobbyjonesoft"
+                android:text="PARU-PARU"
+                android:textColor="@color/white"
+                android:textSize="45sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:paddingHorizontal="20dp">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="390dp"
+                        android:layout_height="wrap_content"
+                        android:background="#fff4e7"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="@string/paru"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:layout_width="213dp"
+                            android:layout_height="151dp"
+                            android:src="@drawable/hal35_3"
+                            android:layout_marginHorizontal="70dp"/>
+
+                        <TextView
+                            android:layout_width="161dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="25dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Sumber :http://www.godelectric.org/hapi"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginHorizontal="100dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="50dp"
+                        android:layout_marginTop="30dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/hal35_1"
+                            android:textColor="@color/white"
+                            android:textSize="25dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Struktur Paru-Paru"
+                            android:gravity="center"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="357dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="20dp">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="347dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/hal35_2" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="10dp"
+                                android:text="Bronkus"
+                                android:textSize="10sp"
+                                android:background="@drawable/round_corner"/>
+
+                            <ImageView
+                                android:layout_width="90dp"
+                                android:layout_height="45dp"
+                                android:layout_marginLeft="89dp"
+                                android:layout_marginTop="60dp"
+                                android:rotation="49"
+                                android:src="@drawable/arrow" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="200dp"
+                                android:text="Trakea"
+                                android:textSize="10sp"
+                                android:background="@drawable/round_corner"/>
+
+                            <ImageView
+                                android:layout_width="86dp"
+                                android:layout_height="36dp"
+                                android:layout_marginLeft="156dp"
+                                android:layout_marginTop="40dp"
+                                android:rotation="135"
+                                android:src="@drawable/arrow" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="255dp"
+                                android:layout_marginTop="70dp"
+                                android:background="@drawable/round_corner"
+                                android:text="Bronkiolus"
+                                android:textSize="8sp" />
+
+                            <ImageView
+                                android:layout_width="90dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="190dp"
+                                android:layout_marginTop="96dp"
+                                android:rotation="145"
+                                android:src="@drawable/arrow" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:text="Alveolus"
+                                android:textSize="10sp"
+                                android:background="@drawable/round_corner"/>
+
+                            <ImageView
+                                android:layout_width="90dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="140dp"
+                                android:rotation="39"
+                                android:src="@drawable/arrow" />
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="25dp"
+                                android:layout_marginTop="150dp"
+                                android:rotation="334"
+                                android:src="@drawable/arr_big" />
+
+                            <ImageView
+                                android:layout_width="67dp"
+                                android:layout_height="72dp"
+                                android:layout_marginTop="160dp"
+                                android:src="@drawable/hal35_4" />
+
+                            <TextView
+                                android:layout_width="141dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="290dp"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="Sumber :https://bionewscentral.com/researchers-create-human-airway-stem-cells-from-patients-cells/"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+                        </FrameLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="312dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/hal35_8"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="45dp">
+
+                            <TextView
+                                android:layout_width="290dp"
+                                android:layout_height="30dp"
+                                android:background="@drawable/hal35_5"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="Sistem Ekskresi Pada Paru-Paru"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="352dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_marginTop="20dp">
+
+                            <FrameLayout
+                                android:layout_width="352dp"
+                                android:layout_height="wrap_content">
+
+                                <pl.droidsonroids.gif.GifImageView
+                                    android:layout_width="163dp"
+                                    android:layout_height="157dp"
+                                    android:layout_marginLeft="95dp"
+                                    android:src="@drawable/hal_35" />
+
+                                <ImageView
+                                    android:layout_width="28dp"
+                                    android:layout_height="29dp"
+                                    android:src="@drawable/hal35_10" />
+
+                                <TextView
+                                    android:layout_width="85dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="@string/paru1"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp" />
+
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="29dp"
+                                    android:layout_marginLeft="246dp"
+                                    android:src="@drawable/hal35_13" />
+
+                                <TextView
+                                    android:layout_width="82dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="260dp"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="@string/paru1"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp" />
+
+                                <ImageView
+                                    android:layout_width="28dp"
+                                    android:layout_height="29dp"
+                                    android:layout_marginTop="100dp"
+                                    android:src="@drawable/hal35_11" />
+
+                                <TextView
+                                    android:layout_width="85dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="100dp"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="@string/paru2"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp" />
+
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="29dp"
+                                    android:layout_marginLeft="235dp"
+                                    android:layout_marginTop="90dp"
+                                    android:src="@drawable/hal35_14" />
+
+                                <TextView
+                                    android:layout_width="90dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="260dp"
+                                    android:layout_marginTop="100dp"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="@string/paru5"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp" />
+
+                                <ImageView
+                                    android:layout_width="28dp"
+                                    android:layout_height="29dp"
+                                    android:layout_marginLeft="100dp"
+                                    android:layout_marginTop="160dp"
+                                    android:src="@drawable/hal35_12" />
+
+                                <TextView
+                                    android:layout_width="114dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="130dp"
+                                    android:layout_marginTop="160dp"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="@string/paru3"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp" />
+
+                            </FrameLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/hal35_6">
+                        </ImageView>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="117dp"
+        android:layout_height="76dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <ImageView
+            android:id="@+id/b_ganggu_paru"
+            android:layout_width="90dp"
+            android:layout_height="62dp"
+            android:background="@drawable/hal35_7"></ImageView>
+    </LinearLayout>
+
+</RelativeLayout>

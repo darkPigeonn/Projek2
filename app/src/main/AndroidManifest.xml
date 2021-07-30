@@ -9,16 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Projek2">
-        <activity android:name=".hal_34">
+        <activity android:name=".hal_45"></activity>
+        <activity android:name=".hal_44" />
+        <activity android:name=".hal_43" />
+        <activity android:name=".hal_42" />
+        <activity android:name=".hal_41" />
+        <activity android:name=".hal_39" />
+        <activity android:name=".hal_38" />
+        <activity android:name=".hal_37" />
+        <activity android:name=".hal_36" />
+        <activity android:name=".hal_35">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".hal_34" />
         <activity android:name=".hal_33" />
         <activity android:name=".hal_32" />
-
         <activity android:name=".hal_31" />
         <activity android:name=".hal_30" />
         <activity android:name=".hal_29" />
@@ -49,8 +58,7 @@
         <activity android:name=".hal_4" />
         <activity android:name=".hal_3" />
         <activity android:name=".hal_2" />
-        <activity android:name=".hal_1"/>
-
+        <activity android:name=".hal_1" />
         <activity android:name=".MainActivity" />
     </application>
 

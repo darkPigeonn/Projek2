@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hal39_back">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="611dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hal39_1"></ImageView>
+
+                <TextView
+                    android:layout_width="319dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="@font/alata_regular"
+                    android:text="@string/berat_hati"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="400dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_close"
+                        android:layout_width="155dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/button_close"></ImageButton>
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

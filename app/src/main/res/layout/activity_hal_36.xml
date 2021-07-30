@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/hal36_back"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="326dp"
+            android:layout_height="221dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata_regular"
+                android:text="@string/trakea"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="126dp"
+                android:layout_height="206dp"
+                android:src="@drawable/hal36_1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+            <FrameLayout
+                android:layout_width="306dp"
+                android:layout_height="wrap_content">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="148dp"
+                    android:layout_height="139dp"
+                    android:src="@drawable/hal_36" />
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="75dp"
+                    android:rotation="180"
+                    android:src="@drawable/arrow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="@font/alata_regular"
+                    android:textSize="20sp"
+                    android:text="Trakea"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:background="@drawable/hal36_2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="120dp"
+                    android:fontFamily="@font/alata_regular"
+                    android:textSize="12sp"
+                    android:text="Sumber :
+https://www.visiblebody.com/blog/the-wonderful-windpipe-five-awesome-facts-about-the-trachea"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="40dp">
+
+            <ImageButton
+                android:id="@+id/btn_close"
+                android:layout_width="155dp"
+                android:layout_height="60dp"
+                android:src="@drawable/button_close"></ImageButton>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

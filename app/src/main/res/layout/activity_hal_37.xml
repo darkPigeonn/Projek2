@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/hal37_1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alata_regular"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/bronkus"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/hal37_2" />
+
+                    <ImageView
+                        android:layout_width="84dp"
+                        android:layout_height="117dp"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="90dp"
+                        android:rotation="65"
+                        android:src="@drawable/arrow"></ImageView>
+
+                    <ImageView
+                        android:layout_width="122dp"
+                        android:layout_height="117dp"
+                        android:layout_marginLeft="90dp"
+                        android:layout_marginTop="80dp"
+                        android:rotation="30"
+                        android:src="@drawable/arrow"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="70dp"
+                        android:fontFamily="@font/alata_regular"
+                        android:textSize="20sp"
+                        android:text="Bronkus"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:background="@drawable/hal37_3"/>
+
+                    <TextView
+                        android:layout_width="204dp"
+                        android:layout_height="63dp"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="250dp"
+                        android:fontFamily="@font/alata_regular"
+                        android:text="Sumber :
+https://www.turbosquid.com/3d-models/3d-bronchi/1007408"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </FrameLayout>
+
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="40dp">
+
+                <ImageButton
+                    android:id="@+id/btn_close"
+                    android:layout_width="155dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/button_close"></ImageButton>
+            </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+</RelativeLayout>
