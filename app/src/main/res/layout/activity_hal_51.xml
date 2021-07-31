@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hal51_back">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="140dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/specialelite"
+                android:text="KULIT"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="45sp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hal51_6"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="346dp"
+                        android:layout_height="152dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/kon_pro">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginTop="30dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:padding="3dp"
+                            android:text="@string/kulit"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="346dp"
+                        android:layout_height="266dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/hal51_2"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="85dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="20dp"
+                                android:layout_marginTop="20dp"
+                                android:fontFamily="@font/chewyregular"
+                                android:padding="3dp"
+                                android:text="Fungsi Kulit"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="25sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:fontFamily="@font/alata_regular"
+                                android:padding="3dp"
+                                android:text="1."
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:padding="3dp"
+                                android:text="@string/fun_kulit1"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:fontFamily="@font/alata_regular"
+                                android:padding="3dp"
+                                android:text="2."
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:padding="3dp"
+                                android:text="@string/fun_kulit2"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+                        </TableRow>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="274dp"
+                            android:layout_height="56dp"
+                            android:layout_marginLeft="60dp"
+                            android:background="@drawable/hal51_7">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="60dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/bobbyjonesoft"
+                                android:text="Struktur Kulit"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="25sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="30dp">
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="183dp"
+                                    android:layout_height="185dp"
+                                    android:background="@drawable/hal51_1"></LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="52dp"
+                                    android:layout_height="20dp"
+                                    android:layout_marginLeft="177dp"
+                                    android:layout_marginTop="42dp"
+                                    android:background="@drawable/hal51_8"></LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="115dp"
+                                    android:layout_height="41dp"
+                                    android:layout_marginLeft="229dp"
+                                    android:layout_marginTop="30dp"
+                                    android:background="@drawable/hal51_3">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="18dp"
+                                        android:layout_marginTop="8dp"
+                                        android:fontFamily="@font/bobbyjonesoft"
+                                        android:text="EPIDERMIS"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="20sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="52dp"
+                                    android:layout_height="58dp"
+                                    android:layout_marginLeft="177dp"
+                                    android:layout_marginTop="78dp"
+                                    android:background="@drawable/hal51_8"></LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="115dp"
+                                    android:layout_height="41dp"
+                                    android:layout_marginLeft="229dp"
+                                    android:layout_marginTop="90dp"
+                                    android:background="@drawable/hal51_3">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="28dp"
+                                        android:layout_marginTop="8dp"
+                                        android:fontFamily="@font/bobbyjonesoft"
+                                        android:text="DERMIS"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="20sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="52dp"
+                                    android:layout_height="38dp"
+                                    android:layout_marginLeft="177dp"
+                                    android:layout_marginTop="145dp"
+                                    android:background="@drawable/hal51_8"></LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="115dp"
+                                    android:layout_height="41dp"
+                                    android:layout_marginLeft="229dp"
+                                    android:layout_marginTop="145dp"
+                                    android:background="@drawable/hal51_3">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="8dp"
+                                        android:fontFamily="@font/bobbyjonesoft"
+                                        android:text="HIPODERMIS"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="20sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="175dp"
+                                    android:layout_height="81dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="185dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="81dp"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginTop="8dp"
+                                        android:fontFamily="@font/alata_regular"
+                                        android:text="Sumber :https://www.dermaessentia.com/blogs/skin-care/layers-of-skin"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="185dp"
+                                    android:layout_marginLeft="130dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="50dp"
+                                        android:fontFamily="@font/alata_regular"
+                                        android:text="@string/nb_hal6c"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </FrameLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp">
+
+                    <LinearLayout
+                        android:layout_width="154dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/hal51_4">
+
+                        <TextView
+                            android:layout_width="124dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Proses Ekskresi Pada Kulit"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="154dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/hal51_5">
+
+                        <TextView
+                            android:layout_width="124dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Gangguan Pada Kulit"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="364dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/alata_regular"
+                        android:text="@string/nb_hal6c"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

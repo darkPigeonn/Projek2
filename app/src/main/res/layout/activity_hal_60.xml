@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hal60_back">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="120dp"
+            android:background="@drawable/hal60_17">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/krabuler"
+                android:text="Jerawat"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginHorizontal="10dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/hal60_15">
+
+                        <TextView
+                            android:layout_width="252dp"
+                            android:layout_height="129dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="@string/jerawat1"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="319dp"
+                        android:layout_height="154dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/hal60_16">
+
+                        <TextView
+                            android:layout_width="252dp"
+                            android:layout_height="119dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="25dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="@string/jerawat2"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/hal60_2">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/jingleberry"
+                                    android:text="Ciri-ciri"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginLeft="23dp"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="186dp"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="@string/ciri_jerawat"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <LinearLayout
+                                    android:layout_width="100dp"
+                                    android:layout_height="106dp"
+                                    android:background="@drawable/hal60_14">
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="100dp"
+                                    android:layout_height="106dp"
+                                    android:background="@drawable/hal60_13">
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="180dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="Sumber : https://www.pharmacy.com.mt/kb/treating-acne/"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="403dp"
+                        android:layout_height="800dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/hal60_2">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="23dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/jingleberry"
+                                android:text="Penyebab"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="136dp"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="54dp"
+                                    android:layout_height="54dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:background="@drawable/hal60_7"></LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="86dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/hal60_1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:fontFamily="@font/alata_regular"
+                                        android:text="Kurang Tidur"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/white"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="100dp"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="54dp"
+                                    android:layout_height="54dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:background="@drawable/hal60_3"></LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="86dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/hal60_1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:fontFamily="@font/alata_regular"
+                                        android:text="Obat-obatan"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/white"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="275dp"
+                                android:layout_marginTop="200dp"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="54dp"
+                                    android:layout_height="54dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:background="@drawable/hal60_4"></LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="56dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="12dp"
+                                    android:background="@drawable/hal60_1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:fontFamily="@font/alata_regular"
+                                        android:text="Bakteri"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/white"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="200dp"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="54dp"
+                                    android:layout_height="54dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:background="@drawable/hal60_5"></LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="56dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="12dp"
+                                    android:background="@drawable/hal60_1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:fontFamily="@font/alata_regular"
+                                        android:text="Kosmetik"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/white"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginLeft="12dp">
+
+                                <LinearLayout
+                                    android:layout_width="54dp"
+                                    android:layout_height="54dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:background="@drawable/hal60_6"></LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="56dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="12dp"
+                                    android:background="@drawable/hal60_1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="5dp"
+                                        android:fontFamily="@font/alata_regular"
+                                        android:text="Stress"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/white"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="256dp"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="54dp"
+                                    android:layout_height="54dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:background="@drawable/hal60_8"></LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="56dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="12dp"
+                                    android:background="@drawable/hal60_1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="5dp"
+                                        android:fontFamily="@font/alata_regular"
+                                        android:text="Polusi"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/white"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="290dp"
+                                android:layout_marginTop="100dp"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="54dp"
+                                    android:layout_height="54dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:background="@drawable/hal60_9"></LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="56dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="12dp"
+                                    android:background="@drawable/hal60_1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="5dp"
+                                        android:fontFamily="@font/alata_regular"
+                                        android:text="Genetik"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/white"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="190dp"
+                                android:layout_marginTop="280dp"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="54dp"
+                                    android:layout_height="54dp"
+                                    android:layout_marginLeft="12dp">
+
+                                    <pl.droidsonroids.gif.GifImageView
+                                        android:layout_width="54dp"
+                                        android:layout_height="54dp"
+                                        android:src="@drawable/hal_60b" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="56dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="12dp"
+                                    android:background="@drawable/hal60_1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="5dp"
+                                        android:fontFamily="@font/alata_regular"
+                                        android:text="Hormon"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/white"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="280dp"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="54dp"
+                                    android:layout_height="54dp"
+                                    android:layout_marginLeft="12dp">
+
+                                    <pl.droidsonroids.gif.GifImageView
+                                        android:layout_width="54dp"
+                                        android:layout_height="54dp"
+                                        android:src="@drawable/hal_60a" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="65dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="12dp"
+                                    android:background="@drawable/hal60_1">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:fontFamily="@font/alata_regular"
+                                        android:text="Makanan"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/white"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="169dp"
+                                android:layout_height="144dp"
+                                android:layout_marginLeft="97dp"
+                                android:layout_marginTop="120dp"
+                                android:background="@drawable/hal60_11">
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="230dp"
+                                android:layout_marginTop="90dp"
+                                android:background="@drawable/hal60_12"
+                                android:rotation="350">
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="34dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="265dp"
+                                android:layout_marginTop="130dp"
+                                android:background="@drawable/hal60_12"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="29dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="245dp"
+                                android:layout_marginTop="190dp"
+                                android:background="@drawable/hal60_12"
+                                android:rotation="55"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="26dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="200dp"
+                                android:layout_marginTop="250dp"
+                                android:background="@drawable/hal60_12"
+                                android:rotation="120"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="26dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="140dp"
+                                android:layout_marginTop="250dp"
+                                android:background="@drawable/hal60_12"
+                                android:rotation="150"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="33dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="80dp"
+                                android:layout_marginTop="230dp"
+                                android:background="@drawable/hal60_12"
+                                android:rotation="180"></LinearLayout>
+                        </FrameLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

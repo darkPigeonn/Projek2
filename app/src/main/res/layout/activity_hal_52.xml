@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hal52_back">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="110dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bobbyjonesoft"
+                android:text="EPIDERMIS"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="45sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:layout_marginHorizontal="20dp">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="160dp"
+                            android:layout_height="232dp"
+                            android:src="@drawable/hal_52" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="177dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/hal52_1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginVertical="10dp"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="@string/epidermis"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginHorizontal="90dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:fontFamily="@font/atma_medium"
+                            android:text="Struktur Sel Epidermis"/>
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="163dp"
+                            android:layout_height="218dp"
+                            android:background="@drawable/hal52_2"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="90dp">
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="88dp"
+                            android:layout_height="52dp"
+                            android:layout_marginTop="55dp"
+                            android:background="@drawable/hal52_5">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/bobbyjonesoft"
+                                android:textSize="14sp"
+                                android:textAlignment="center"
+                                android:text="Stratum lusidum"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="68dp"
+                            android:layout_height="42dp"
+                            android:background="@drawable/hal52_5"
+                            android:layout_marginTop="130dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="6dp"
+                                android:fontFamily="@font/bobbyjonesoft"
+                                android:text="Stratum spinosum"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="88dp"
+                            android:layout_height="52dp"
+                            android:background="@drawable/hal52_5"
+                            android:layout_marginTop="164dp"
+                            android:layout_marginLeft="260dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/bobbyjonesoft"
+                                android:textSize="14sp"
+                                android:textAlignment="center"
+                                android:text="Stratum basalis"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="88dp"
+                            android:layout_height="52dp"
+                            android:background="@drawable/hal52_5"
+                            android:layout_marginTop="80dp"
+                            android:layout_marginLeft="260dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/bobbyjonesoft"
+                                android:textSize="14sp"
+                                android:textAlignment="center"
+                                android:text="Stratum granulosum"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="88dp"
+                            android:layout_height="52dp"
+                            android:background="@drawable/hal52_5"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="280dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/bobbyjonesoft"
+                                android:textSize="14sp"
+                                android:textAlignment="center"
+                                android:text="Stratum korneum "/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="245dp"
+                            android:layout_marginTop="25dp"
+                            android:background="@drawable/hal52_6"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="29dp"
+                            android:layout_height="16dp"
+                            android:layout_marginLeft="245dp"
+                            android:layout_marginTop="65dp"
+                            android:background="@drawable/hal52_6"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="29dp"
+                            android:layout_height="16dp"
+                            android:layout_marginLeft="245dp"
+                            android:layout_marginTop="150dp"
+                            android:background="@drawable/hal52_6"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="17dp"
+                            android:layout_height="72dp"
+                            android:layout_marginLeft="75dp"
+                            android:layout_marginTop="136dp"
+                            android:background="@drawable/hal52_6"
+                            android:rotation="540"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="17dp"
+                            android:layout_height="10dp"
+                            android:layout_marginLeft="75dp"
+                            android:layout_marginTop="109dp"
+                            android:background="@drawable/hal52_6"
+                            android:rotation="540"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="17dp"
+                            android:layout_height="10dp"
+                            android:layout_marginLeft="265dp"
+                            android:layout_marginTop="39dp"
+                            android:background="@drawable/hal52_8"></LinearLayout>
+                        <LinearLayout
+                            android:layout_width="17dp"
+                            android:layout_height="10dp"
+                            android:layout_marginLeft="275dp"
+                            android:layout_marginTop="69dp"
+                            android:background="@drawable/hal52_8"
+                            android:rotation="20"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="17dp"
+                            android:layout_height="10dp"
+                            android:layout_marginLeft="273dp"
+                            android:layout_marginTop="155dp"
+                            android:background="@drawable/hal52_8"
+                            android:rotation="20"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="17dp"
+                            android:layout_height="10dp"
+                            android:layout_marginLeft="58dp"
+                            android:layout_marginTop="175dp"
+                            android:background="@drawable/hal52_7"
+                            android:rotation="20"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="17dp"
+                            android:layout_height="10dp"
+                            android:layout_marginLeft="58dp"
+                            android:layout_marginTop="109dp"
+                            android:background="@drawable/hal52_7"
+                            android:rotation="20"></LinearLayout>
+
+                        <TextView
+                            android:layout_width="143dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="220dp"
+                            android:layout_marginTop="230dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="@string/nb_hal6c"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"></TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="290dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Sumber : http://www.musicianshealthcollective.com/blog/2014/5/4/anatomy-of-a-callus"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"></TextView>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/hal52_1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/atma_medium"
+                            android:text="@string/epidermis2"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp">
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="172dp"
+                                android:layout_height="97dp"
+                                android:src="@drawable/hal52_9" />
+
+                            <ImageView
+                                android:layout_width="172dp"
+                                android:layout_height="97dp"
+                                android:src="@drawable/hal52_10" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginLeft="50dp">
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="96dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/hal52_3">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:fontFamily="@font/krabuler"
+                                    android:text="DERMIS"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="138dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/hal52_4"
+                                android:layout_marginLeft="30dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/krabuler"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginLeft="22dp"
+                                    android:text="HIPODERMIS"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="40dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/nb_hal6c"
+                            android:fontFamily="@font/alata_regular"
+                            android:textSize="12sp"
+                            android:textColor="@color/white"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
