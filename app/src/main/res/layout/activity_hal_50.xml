@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hal50_back">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/krabuler"
+                android:text="PENGOBATAN HEMOKROMATIS"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="228dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/hal50_8">
+
+                            <TextView
+                                android:layout_width="208dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginHorizontal="10dp"
+                                android:fontFamily="@font/alata_regular"
+                                android:padding="5dp"
+                                android:src="@drawable/hal49_1"
+                                android:text="@string/obat_hemo1"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/hal50_1">
+
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:layout_width="351dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginHorizontal="10dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:padding="5dp"
+                            android:src="@drawable/hal49_1"
+                            android:text="Pengobatan yang dilakukan oleh dokter untuk mengatasi hemokromatosis yaitu:"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                    </TableRow>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp">
+
+                            <LinearLayout
+                                android:layout_width="37dp"
+                                android:layout_height="37dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/hal50_6"></LinearLayout>
+
+                            <TextView
+                                android:layout_width="250dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="0dp"
+                                android:fontFamily="@font/atma_medium"
+                                android:gravity="center_vertical"
+                                android:text="Pembuangan darah atau phlebotomy "
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                tools:ignore="RtlCompat" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="20dp">
+
+                            <LinearLayout
+                                android:layout_width="225dp"
+                                android:layout_height="300dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/hal50_2">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="20dp"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="@string/obat_hemo2"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="130dp"
+                                android:layout_height="200dp"
+                                android:layout_marginTop="50dp"
+                                android:background="@drawable/hal50_4">
+                            </LinearLayout>
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="450dp"
+                        android:layout_marginTop="30dp"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp">
+
+                            <LinearLayout
+                                android:layout_width="37dp"
+                                android:layout_height="37dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/hal50_5"></LinearLayout>
+
+                            <TextView
+                                android:layout_width="184dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="0dp"
+                                android:fontFamily="@font/atma_medium"
+                                android:gravity="center_vertical"
+                                android:text="Pemberian obat-obatan"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                tools:ignore="RtlCompat" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="20dp">
+
+                            <LinearLayout
+                                android:layout_width="130dp"
+                                android:layout_height="170dp"
+                                android:layout_marginTop="50dp"
+                                android:background="@drawable/hal50_7">
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="212dp"
+                                android:layout_height="263dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/hal50_3">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="20dp"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="@string/obat_hemo3"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="130dp"
+                                android:layout_height="200dp"
+                                android:layout_marginTop="50dp"
+                                android:background="@drawable/hal50_7">
+                            </LinearLayout>
+                        </TableRow>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <ImageView
+            android:id="@+id/b_bck"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:background="@drawable/button_back"></ImageView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hal47_back">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sifonn"
+                android:text="SIROSIS HATI"
+                android:textAlignment="center"
+                android:textColor="#753192"
+                android:textSize="40dp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="105dp"
+                            android:layout_height="105dp"
+                            android:src="@drawable/hal47_15" />
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="146dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/hal47_1" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="99dp"
+                                android:layout_marginTop="30dp"
+                                android:fontFamily="@font/alata_regular"
+                                android:text="@string/sirosis"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+                        </FrameLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Sumber :
+ https://www.pacehospital.com/liver-cirrhosis-symptoms-causes-and-prevention"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </TableRow>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="350dp"
+                        android:background="@drawable/hal47_5">
+
+                        <ImageView
+                            android:layout_width="95dp"
+                            android:layout_height="79dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/hal47_10" />
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="47dp"
+                            android:layout_marginLeft="180dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Penurunan nafsu makan"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="143dp"
+                                android:layout_height="77dp"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="120dp"
+                                android:src="@drawable/hal47_2" />
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="47dp"
+                                android:layout_marginLeft="135dp"
+                                android:layout_marginTop="140dp"
+                                android:fontFamily="@font/jingleberry"
+                                android:text="Gejala"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="25sp" />
+                        </FrameLayout>
+
+                        <ImageView
+                            android:layout_width="95dp"
+                            android:layout_height="79dp"
+                            android:layout_marginLeft="245dp"
+                            android:layout_marginTop="50dp"
+                            android:src="@drawable/hal30_8" />
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="260dp"
+                            android:layout_marginTop="120dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Mudah lemas dan letih"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:layout_width="95dp"
+                            android:layout_height="79dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="50dp"
+                            android:src="@drawable/hal47_9" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="35dp"
+                            android:layout_marginTop="120dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Mual"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="63dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="160dp"
+                            android:src="@drawable/hal47_8" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="220dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Muntah"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="63dp"
+                            android:layout_marginLeft="135dp"
+                            android:layout_marginTop="190dp"
+                            android:src="@drawable/hal47_7" />
+
+                        <TextView
+                            android:layout_width="124dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="105dp"
+                            android:layout_marginTop="250dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Kulit dan bagian putih mata menguning"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="63dp"
+                            android:layout_marginLeft="250dp"
+                            android:layout_marginTop="170dp"
+                            android:src="@drawable/hal47_6" />
+
+                        <TextView
+                            android:layout_width="98dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="245dp"
+                            android:layout_marginTop="230dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Bertambah atau menurunnya berat badan secara tiba-tiba"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="29dp"
+                            android:layout_marginLeft="200dp"
+                            android:layout_marginTop="115dp"
+                            android:rotation="345"
+                            android:src="@drawable/hal47_4" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="29dp"
+                            android:layout_marginLeft="140dp"
+                            android:layout_marginTop="100dp"
+                            android:rotation="285"
+                            android:src="@drawable/hal47_4" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="29dp"
+                            android:layout_marginLeft="67dp"
+                            android:layout_marginTop="120dp"
+                            android:rotation="235"
+                            android:src="@drawable/hal47_4" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="29dp"
+                            android:layout_marginLeft="77dp"
+                            android:layout_marginTop="170dp"
+                            android:rotation="155"
+                            android:src="@drawable/hal47_4" />
+
+                        <ImageView
+                            android:layout_width="52dp"
+                            android:layout_height="23dp"
+                            android:layout_marginLeft="145dp"
+                            android:layout_marginTop="185dp"
+                            android:rotation="105"
+                            android:src="@drawable/hal47_4" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="29dp"
+                            android:layout_marginLeft="205dp"
+                            android:layout_marginTop="170dp"
+                            android:rotation="55"
+                            android:src="@drawable/hal47_4" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="143dp"
+                            android:layout_height="54dp"
+                            android:layout_marginLeft="100dp"
+                            android:src="@drawable/hal47_3" />
+
+                        <TextView
+                            android:layout_width="128dp"
+                            android:layout_height="47dp"
+                            android:layout_marginLeft="105dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/jingleberry"
+                            android:text="Penyebab"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <ImageView
+                            android:layout_width="92dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/hal47_11"></ImageView>
+
+                        <TextView
+                            android:layout_width="89dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="100dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Berat badan berlebih"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="260dp"
+                            android:src="@drawable/hal47_13"></ImageView>
+
+                        <TextView
+                            android:layout_width="109dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="260dp"
+                            android:layout_marginTop="100dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Konsumsi minuman beralkohol secara berlebihan"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="58dp"
+                            android:layout_marginLeft="140dp"
+                            android:layout_marginTop="80dp"
+                            android:src="@drawable/hal47_12"></ImageView>
+
+                        <TextView
+                            android:layout_width="115dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="130dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Infeksi virus hepatitis B dan hepatitis C"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="52dp"
+                            android:layout_height="23dp"
+                            android:layout_marginLeft="148dp"
+                            android:layout_marginTop="55dp"
+                            android:rotation="105"
+                            android:src="@drawable/hal47_4" />
+
+                        <ImageView
+                            android:layout_width="52dp"
+                            android:layout_height="23dp"
+                            android:layout_marginLeft="74dp"
+                            android:layout_marginTop="15dp"
+                            android:rotation="195"
+                            android:src="@drawable/hal47_4" />
+
+                        <ImageView
+                            android:layout_width="52dp"
+                            android:layout_height="23dp"
+                            android:layout_marginLeft="216dp"
+                            android:layout_marginTop="15dp"
+                            android:rotation="15"
+                            android:src="@drawable/hal47_4" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/hal47_14" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/jingleberry"
+                            android:text="Pengobatan"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="65dp"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="30sp" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:textSize="13sp"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:text="Klik untuk mempelajari lebih lanjut"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <ImageView
+            android:id="@+id/b_bck"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:background="@drawable/button_back"></ImageView>
+    </LinearLayout>
+</RelativeLayout>
