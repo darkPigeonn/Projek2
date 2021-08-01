@@ -16,8 +16,8 @@
         <TextView
             android:layout_width="253dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
             android:fontFamily="@font/jingleberry"
             android:gravity="center_horizontal"
             android:justificationMode="inter_word"
@@ -169,20 +169,19 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content">
 
-                                <TextView
-                                    android:id="@+id/btn_korteks"
-                                    android:layout_width="89dp"
-                                    android:layout_height="75dp"
-                                    android:layout_marginLeft="20dp"
-                                    android:fontFamily="@font/atma_medium"
-                                    android:gravity="center"
-                                    android:justificationMode="inter_word"
-                                    android:text="Korteks"
-                                    android:layout_gravity="clip_vertical"
-                                    android:textColor="@color/black"
-                                    android:textSize="15sp"
-                                    android:background="@drawable/content_ginjal2"/>
-
+                            <TextView
+                                android:id="@+id/btn_korteks"
+                                android:layout_width="89dp"
+                                android:layout_height="75dp"
+                                android:layout_gravity="clip_vertical"
+                                android:layout_marginLeft="20dp"
+                                android:background="@drawable/content_ginjal2"
+                                android:fontFamily="@font/atma_medium"
+                                android:gravity="center"
+                                android:justificationMode="inter_word"
+                                android:text="Korteks"
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
 
 
                         </TableRow>
@@ -190,8 +189,9 @@
                         <TableRow
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="55dp"
-                            android:layout_marginLeft="295dp">
+                            android:layout_marginLeft="295dp"
+                            android:layout_marginTop="55dp">
+
                             <TextView
                                 android:id="@+id/btn_arteri"
                                 android:layout_width="89dp"
@@ -211,8 +211,9 @@
                         <TableRow
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="130dp"
-                            android:layout_marginLeft="295dp">
+                            android:layout_marginLeft="295dp"
+                            android:layout_marginTop="130dp">
+
                             <TextView
                                 android:id="@+id/btn_vena"
                                 android:layout_width="89dp"
@@ -243,18 +244,15 @@
                         </TableRow>
 
 
-
-
-
                         <TableRow
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content">
 
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="84dp"
-                            android:layout_marginLeft="90dp"
-                            android:src="@drawable/ar_left" />
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="84dp"
+                                android:layout_marginLeft="90dp"
+                                android:src="@drawable/ar_left" />
 
                             <ImageView
                                 android:layout_width="54dp"
@@ -316,8 +314,7 @@
                                 android:justificationMode="inter_word"
                                 android:text="Pelvis Renalis"
                                 android:textColor="@color/black"
-                                android:textSize="20sp"
-                                />
+                                android:textSize="20sp" />
                         </TableRow>
 
                         <TableRow
@@ -366,8 +363,6 @@
                         </TableRow>
 
 
-
-
                         <TableRow
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -411,7 +406,6 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/ln3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -425,8 +419,8 @@
                     android:id="@+id/b_fung_ginjal"
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="10dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:background="@drawable/button_funginjal"
                     android:fontFamily="@font/mulibold"
                     android:gravity="center"
@@ -465,8 +459,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"
+                android:layout_marginLeft="100dp"
                 android:orientation="horizontal"
-android:layout_marginLeft="100dp"
                 android:scaleX="1"
                 android:scaleY="1">
 
@@ -482,7 +476,6 @@ android:layout_marginLeft="100dp"
                     android:textColor="@color/black"
                     android:textSize="14sp"></TextView>
             </LinearLayout>
-
         </LinearLayout>
     </ScrollView>
 
