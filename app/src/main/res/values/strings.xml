@@ -205,6 +205,7 @@ merupakan hormon yang akan diaktifkan oleh enzim renin ginjal dan berperan untuk
     <string name="jerawat2">Jerawat terdapat di bagian tubuh dengan kelenjar minyak berlebih yaitu di wajah, leher, bagian atas dada, dan punggung.</string>
     <string name="ciri_jerawat">Munculnya benjolan kecil (yang terkadang berisi nanah) dengan ukuran yang bervariasi dari ukuran kecil hingga besar, berwarna merah dan terkadang menimbulkan rasa nyeri.</string>
     <string name="cara_atasi">Jerawat menimbulkan rasa tidak nyaman dan menurunkan kepercayaan diri, terutama jerawat pada wajah. Cara mengatasi jerawat dapat dilakukan secara alami maupun perawatan kulit ke dokter. Berikut merupakan cara untuk mengatasi jerawat :</string>
+    <string name="atasi_jerawat">Jerawat menimbulkan rasa tidak nyaman dan menurunkan kepercayaan diri, terutama jerawat pada wajah. Cara mengatasi jerawat dapat dilakukan secara alami maupun perawatan kulit ke dokter. Berikut merupakan cara untuk mengatasi jerawat :</string>
     <string name="atasi_jerawat1">Rutin membersihkan wajah</string>
     <string name="atasi_jerawat2">Menjaga pola makan </string>
     <string name="atasi_jerawat3">Mengelola stres dan pola tidur dengan baik</string>
@@ -255,4 +256,5 @@ flavonoid yang berfungsi sebagai antibakteri sehingga dapat mengatasi bakteri pe
 </string>
     <string name="atasi_kudis3">Untuk mengurangi gatal dapat berendam di air dingin atau menempelkan kain basah pada area kulit yang gatal.
 </string>
+    <string name="aloe">Lidah Buaya (<i>Aloe vera</i>)</string>
 </resources>

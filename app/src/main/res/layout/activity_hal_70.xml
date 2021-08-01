@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hal70_back">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/leaguespartanbold"
+                    android:text="KUDIS"
+                    android:textAlignment="center"
+                    android:textColor="#fcd24f"
+                    android:textSize="50sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginTop="30dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="377dp"
+                                android:layout_height="200dp"
+                                android:background="@drawable/hal31_1">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginHorizontal="20dp"
+                                    android:layout_marginVertical="20dp"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="@string/kudis"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginTop="20dp">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <FrameLayout
+                                        android:layout_width="253dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="2dp">
+
+                                        <LinearLayout
+                                            android:layout_width="234dp"
+                                            android:layout_height="450dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="5dp"
+                                            android:background="@drawable/hal70_9"></LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="100dp"
+                                            android:layout_height="32dp"
+                                            android:layout_marginLeft="20dp"
+                                            android:background="@drawable/hal66_2">
+
+                                            <TextView
+                                                android:layout_width="96dp"
+                                                android:layout_height="30dp"
+                                                android:layout_marginLeft="2dp"
+                                                android:layout_marginTop="2dp"
+                                                android:background="#ffd230"
+                                                android:fontFamily="@font/leaguespartanbold"
+                                                android:text="GEJALA"
+                                                android:textAlignment="center"
+                                                android:textColor="@color/black"
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="25dp"
+                                            android:layout_marginTop="40dp"
+                                            android:orientation="vertical">
+
+                                            <TableRow
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content">
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:fontFamily="@font/alata_regular"
+                                                    android:text="1."
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp" />
+
+                                                <TextView
+                                                    android:layout_width="187dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginLeft="2dp"
+                                                    android:fontFamily="@font/alata_regular"
+                                                    android:text="@string/gejala_kudis1"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp" />
+                                            </TableRow>
+
+                                            <TableRow
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="10dp">
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:fontFamily="@font/alata_regular"
+                                                    android:text="2."
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp" />
+
+                                                <TextView
+                                                    android:layout_width="179dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginLeft="2dp"
+                                                    android:fontFamily="@font/alata_regular"
+                                                    android:text="@string/gejala_kudis2"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp" />
+                                            </TableRow>
+
+                                            <TableRow
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="10dp">
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:fontFamily="@font/alata_regular"
+                                                    android:text="3."
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp" />
+
+                                                <TextView
+                                                    android:layout_width="179dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginLeft="2dp"
+                                                    android:fontFamily="@font/alata_regular"
+                                                    android:text="@string/gejala_kudis3"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp" />
+                                            </TableRow>
+
+                                            <TableRow
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="10dp">
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:fontFamily="@font/alata_regular"
+                                                    android:text="4."
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp" />
+
+                                                <TextView
+                                                    android:layout_width="178dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginLeft="2dp"
+                                                    android:fontFamily="@font/alata_regular"
+                                                    android:text="@string/gejala_kudis4"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp" />
+                                            </TableRow>
+                                        </LinearLayout>
+                                    </FrameLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="415dp"
+                                        android:layout_marginTop="40dp"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="105dp"
+                                            android:layout_height="105dp"
+                                            android:background="@drawable/hal70_1">
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="105dp"
+                                            android:layout_height="105dp"
+                                            android:layout_marginTop="5dp"
+                                            android:background="@drawable/hal70_2">
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="105dp"
+                                            android:layout_height="105dp"
+                                            android:layout_marginTop="5dp"
+                                            android:background="@drawable/hal70_3"></LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="105dp"
+                                            android:layout_height="105dp"
+                                            android:layout_marginTop="5dp">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/alata_regular"
+                                                android:text="Sumber :https://www.nhs.uk/conditions/scabies/"
+                                                android:textAlignment="center"
+                                                android:textColor="@color/black"
+                                                android:textSize="12sp" />
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginTop="20dp">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <FrameLayout
+                                        android:layout_width="253dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="2dp">
+
+                                        <LinearLayout
+                                            android:layout_width="234dp"
+                                            android:layout_height="263dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="5dp"
+                                            android:background="@drawable/hal70_9"></LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="120dp"
+                                            android:layout_height="32dp"
+                                            android:layout_marginLeft="20dp"
+                                            android:background="@drawable/hal66_2">
+
+                                            <TextView
+                                                android:layout_width="120dp"
+                                                android:layout_height="30dp"
+                                                android:layout_marginLeft="2dp"
+                                                android:layout_marginTop="2dp"
+                                                android:background="#ffd230"
+                                                android:fontFamily="@font/leaguespartanbold"
+                                                android:text="PENYEBAB"
+                                                android:textAlignment="center"
+                                                android:textColor="@color/black"
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="40dp"
+                                            android:orientation="vertical">
+
+                                            <TableRow
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content">
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="189dp"
+                                                    android:layout_marginHorizontal="30dp"
+                                                    android:layout_marginVertical="5dp"
+                                                    android:fontFamily="@font/alata_regular"
+                                                    android:text="@string/penyebab_kudis"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp" />
+                                            </TableRow>
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="225dp"
+                                            android:layout_height="118dp"
+                                            android:layout_marginTop="280dp"
+                                            android:layout_marginLeft="20dp">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="224dp"
+                                                android:fontFamily="@font/alata_regular"
+                                                android:text="Sumber :https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/infectious-diseases/resources/scabies; https://www.everydayhealth.com/scabies/"
+                                                android:textAlignment="center"
+                                                android:textColor="@color/black"
+                                                android:textSize="12sp" />
+                                        </LinearLayout>
+
+                                    </FrameLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="223dp"
+                                        android:layout_marginTop="30dp"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="105dp"
+                                            android:layout_height="105dp"
+                                            android:layout_marginTop="5dp"
+                                            android:background="@drawable/hal70_5">
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="105dp"
+                                            android:layout_height="105dp"
+                                            android:layout_marginTop="5dp"
+                                            android:background="@drawable/hal70_4"></LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginTop="20dp">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <FrameLayout
+                                        android:layout_width="253dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="2dp">
+
+                                        <LinearLayout
+                                            android:layout_width="234dp"
+                                            android:layout_height="462dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="5dp"
+                                            android:background="@drawable/hal70_9"></LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="210dp"
+                                            android:layout_height="32dp"
+                                            android:layout_marginLeft="20dp"
+                                            android:background="@drawable/hal66_2">
+
+                                            <TextView
+                                                android:layout_width="210dp"
+                                                android:layout_height="30dp"
+                                                android:layout_marginLeft="2dp"
+                                                android:layout_marginTop="2dp"
+                                                android:background="#ffd230"
+                                                android:fontFamily="@font/leaguespartanbold"
+                                                android:text="CARA MENGATASI"
+                                                android:textAlignment="center"
+                                                android:textColor="@color/black"
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="25dp"
+                                            android:layout_marginTop="40dp"
+                                            android:orientation="vertical">
+
+                                            <TableRow
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content">
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:fontFamily="@font/alata_regular"
+                                                    android:text="1."
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp" />
+
+                                                <TextView
+                                                    android:layout_width="187dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginLeft="2dp"
+                                                    android:fontFamily="@font/alata_regular"
+                                                    android:text="@string/atasi_kudis1"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp" />
+                                            </TableRow>
+
+                                            <TableRow
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="10dp">
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:fontFamily="@font/alata_regular"
+                                                    android:text="2."
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp" />
+
+                                                <TextView
+                                                    android:layout_width="179dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginLeft="2dp"
+                                                    android:fontFamily="@font/alata_regular"
+                                                    android:text="@string/atasi_kudis2"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp" />
+                                            </TableRow>
+
+                                            <TableRow
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="10dp">
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:fontFamily="@font/alata_regular"
+                                                    android:text="3."
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp" />
+
+                                                <TextView
+                                                    android:layout_width="179dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginLeft="2dp"
+                                                    android:fontFamily="@font/alata_regular"
+                                                    android:text="@string/atasi_kudis3"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp" />
+                                            </TableRow>
+
+
+                                        </LinearLayout>
+                                    </FrameLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="415dp"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="105dp"
+                                            android:layout_height="105dp"
+                                            android:background="@drawable/hal70_7">
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="105dp"
+                                            android:layout_height="105dp"
+                                            android:layout_marginTop="5dp"
+                                            android:background="@drawable/hal70_8">
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="105dp"
+                                            android:layout_height="105dp"
+                                            android:layout_marginTop="5dp"
+                                            android:background="@drawable/hal70_6"></LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="105dp"
+                                            android:layout_height="105dp"
+                                            android:layout_marginTop="5dp">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/alata_regular"
+                                                android:text="Sumber :
+https://hellosehat.com/penyakit-kulit/infeksi-kulit/cara-membunuh-kutu-scabies/#gref"
+                                                android:textAlignment="center"
+                                                android:textColor="@color/black"
+                                                android:textSize="12sp" />
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <ImageView
+            android:id="@+id/b_bck"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:background="@drawable/button_back"></ImageView>
+    </LinearLayout>
+</RelativeLayout>

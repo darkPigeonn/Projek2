@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="643dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="40dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="596dp"
+                    android:background="@drawable/hal64_back" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="360dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="25dp">
+
+                        <TextView
+                            android:layout_width="302dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/gaegubold"
+                            android:text="Mengelola stres dan pola tidur dengan baik"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="24dp"
+                        android:layout_marginVertical="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nowregular"
+                            android:text="@string/kelola_stress"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginLeft="30dp">
+
+                    <ImageView
+                        android:layout_width="68dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/hal64_1"/>
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="88dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/hal_64a" />
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="85dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/hal_64b" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="470dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_close"
+                        android:layout_width="155dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/button_close"></ImageButton>
+                </LinearLayout>
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hal65_back">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="82dp"
+                    android:background="@drawable/hal65_3"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="246dp"
+                    android:layout_height="92dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/hal65_2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/brittanysignature"
+                        android:text="Gangguan Pada Kulit"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="30dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="59dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/hal65_4" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="70dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="170dp"
+                                android:layout_height="150dp"
+                                android:background="@drawable/hal65_5" />
+
+                            <LinearLayout
+                                android:layout_width="170dp"
+                                android:layout_height="150dp"
+                                android:layout_marginLeft="40dp"
+                                android:background="@drawable/hal65_6" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="170dp"
+                                android:layout_height="150dp"
+                                android:background="@drawable/hal65_7" />
+
+                            <LinearLayout
+                                android:layout_width="170dp"
+                                android:layout_height="150dp"
+                                android:layout_marginLeft="40dp"
+                                android:background="@drawable/hal65_8" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="170dp"
+                                android:layout_height="150dp"
+                                android:background="@drawable/hal65_9" />
+
+                            <LinearLayout
+                                android:layout_width="170dp"
+                                android:layout_height="150dp"
+                                android:layout_marginLeft="40dp"
+                                android:background="@drawable/hal65_11" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="170dp"
+                                android:layout_height="150dp"
+                                android:background="@drawable/hal65_12" />
+
+                            <LinearLayout
+                                android:layout_width="170dp"
+                                android:layout_height="120dp"
+                                android:layout_marginLeft="40dp"
+                                android:background="@drawable/hal65_1">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:textColor="@color/black"
+                                    android:layout_marginHorizontal="10dp"
+                                    android:layout_marginTop="50dp"
+                                    android:textSize="12sp"
+                                    android:textAlignment="center"
+                                    android:text="Klik pada bagian gambar penyakit untuk mempelajari lebih lanjut"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <ImageView
+            android:id="@+id/b_menu_materi"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/button_menu"></ImageView>
+
+        <ImageView
+            android:id="@+id/b_home"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/button_home"></ImageView>
+
+        <ImageView
+            android:id="@+id/b_bck"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:background="@drawable/button_back"></ImageView>
+    </LinearLayout>
+</RelativeLayout>

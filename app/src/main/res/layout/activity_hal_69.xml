@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="643dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="40dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="560dp"
+                    android:background="@drawable/hal69_1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="359dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="95dp">
+
+                        <TextView
+                            android:layout_width="268dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/nunitosansbold"
+                            android:text="Mencuci Rambut "
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="259dp"
+                        android:layout_marginHorizontal="24dp"
+                        android:layout_marginVertical="10dp">
+
+                        <TextView
+                            android:layout_width="286dp"
+                            android:layout_height="251dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="@string/keramas"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="400dp"
+                    android:background="@drawable/hal69_2">
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="119dp"
+                    android:layout_height="109dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="390dp">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="117dp"
+                        android:layout_height="111dp"
+                        android:src="@drawable/hal_69" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="530dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_close"
+                        android:layout_width="155dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/button_close"></ImageButton>
+                </LinearLayout>
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
