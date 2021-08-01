@@ -35,11 +35,7 @@
         <activity android:name=".hal_47" />
         <activity android:name=".hal_46" />
         <activity android:name=".hal_40">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".hal_45" />
         <activity android:name=".hal_44" />
@@ -82,9 +78,17 @@
         <activity android:name=".hal_6" />
         <activity android:name=".hal_5" />
         <activity android:name=".hal_4" />
-        <activity android:name=".hal_3" />
+        <activity android:name=".hal_3" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".hal_2" />
-        <activity android:name=".hal_1" />
+
+        <activity android:name=".hal_1"/>
+
         <activity android:name=".MainActivity" />
     </application>
 
