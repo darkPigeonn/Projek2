@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Projek2">
-        <activity android:name=".hal_70"></activity>
+        <activity android:name=".hal_76"></activity>
+        <activity android:name=".hal_75" />
+        <activity android:name=".hal_74" />
+        <activity android:name=".hal_73" />
+        <activity android:name=".hal_72" />
+        <activity android:name=".hal_71" />
+        <activity android:name=".hal_70" />
         <activity android:name=".hal_69" />
         <activity android:name=".hal_68" />
         <activity android:name=".hal_67" />
@@ -34,9 +40,7 @@
         <activity android:name=".hal_48" />
         <activity android:name=".hal_47" />
         <activity android:name=".hal_46" />
-        <activity android:name=".hal_40">
-
-        </activity>
+        <activity android:name=".hal_40" />
         <activity android:name=".hal_45" />
         <activity android:name=".hal_44" />
         <activity android:name=".hal_43" />
@@ -61,17 +65,14 @@
         <activity android:name=".hal_23" />
         <activity android:name=".hal_22" />
         <activity android:name=".hal_15" />
-
         <activity android:name=".hal_14" />
-
         <activity android:name=".hal_13" />
-
         <activity android:name=".hal_21" />
         <activity android:name=".hal_20" />
         <activity android:name=".hal_19" />
         <activity android:name=".hal_18" />
         <activity android:name=".hal_17" />
-        <activity android:name=".hal_16" >
+        <activity android:name=".hal_16">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -79,30 +80,17 @@
             </intent-filter>
         </activity>
         <activity android:name=".hal_12" />
-
         <activity android:name=".hal_11" />
-
         <activity android:name=".hal_10" />
-
         <activity android:name=".hal_9" />
-
         <activity android:name=".hal_8" />
-
-        <activity android:name=".hal_7"/> >
-
+        <activity android:name=".hal_7" />
         <activity android:name=".hal_6" />
-
-        <activity android:name=".hal_5"/>
-
-
+        <activity android:name=".hal_5" />
         <activity android:name=".hal_4" />
-
         <activity android:name=".hal_3" />
-
         <activity android:name=".hal_2" />
-
-        <activity android:name=".hal_1"/>
-
+        <activity android:name=".hal_1" />
         <activity android:name=".MainActivity" />
     </application>
 
