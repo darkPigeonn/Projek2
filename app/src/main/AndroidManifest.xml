@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Projek2">
-        <activity android:name=".hal_76"></activity>
+        <activity android:name=".hal_81"></activity>
+        <activity android:name=".hal_80" />
+        <activity android:name=".hal_79" />
+        <activity android:name=".hal_78" />
+        <activity android:name=".hal_76" />
         <activity android:name=".hal_75" />
         <activity android:name=".hal_74" />
         <activity android:name=".hal_73" />

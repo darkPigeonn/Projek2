@@ -1,9 +1,548 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".hal_71">
+    android:background="@drawable/hal71_back">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kurap"
+                android:textColor="#5a2c1e"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hal71_2" />
+
+        <LinearLayout
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="390dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:layout_width="387dp"
+                            android:layout_height="2dp"
+                            android:background="@color/black" />
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1575dp">
+
+                        <LinearLayout
+                            android:layout_width="196dp"
+                            android:layout_height="197dp"
+                            android:background="@drawable/hal71_1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginVertical="10dp"
+                                android:fontFamily="@font/mulibold"
+                                android:text="@string/kurap"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="205dp"
+                            android:layout_height="2dp"
+                            android:layout_marginTop="200dp"
+                            android:background="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="46dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="205dp"
+                            android:background="@drawable/hal52_5">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="18dp"
+                                android:layout_marginTop="8dp"
+                                android:fontFamily="@font/leaguespartanbold"
+                                android:text="PENYEBAB"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="193dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="250dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="@string/kurap_penyebab"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="15dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="116dp"
+                                android:layout_marginTop="20dp"
+                                android:background="@drawable/hal71_5" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:fontFamily="@font/alata_regular"
+                                    android:text="Sumber :https://www.basu.org.in/wp-content/uploads/2020/07/2nd_Professional_year_Dermatophytes__FInal_.pdf"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="205dp"
+                            android:layout_height="2dp"
+                            android:layout_marginTop="720dp"
+                            android:background="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="195dp"
+                            android:layout_height="129dp"
+                            android:layout_marginTop="725dp"
+                            android:background="@drawable/hal71_6" />
+
+                        <LinearLayout
+                            android:layout_width="195dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="860dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/mulibold"
+                                android:text="Sumber :https://www.gooddoctor.co.id/hidup-sehat/obat/8-jenis-salep-gatal-jamur/"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="182dp"
+                            android:layout_height="2dp"
+                            android:layout_marginLeft="207dp"
+                            android:layout_marginTop="840dp"
+                            android:background="@android:color/black" />
+
+                        <View
+                            android:layout_width="2dp"
+                            android:layout_height="840dp"
+                            android:layout_marginLeft="205dp"
+                            android:background="@android:color/black" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="210dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="121dp"
+                                android:layout_height="46dp"
+                                android:layout_marginLeft="25dp"
+                                android:background="@drawable/hal52_5">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="18dp"
+                                    android:layout_marginTop="8dp"
+                                    android:fontFamily="@font/leaguespartanbold"
+                                    android:text="GEJALA"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="1."
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="@string/kurap_gejala1"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="2."
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="@string/kurap_gejala2"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="3."
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="@string/kurap_gejala3"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="4."
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="@string/kurap_gejala4"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="5."
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="@string/kurap_gejala5"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+                                </TableRow>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="137dp"
+                                    android:layout_marginTop="15dp"
+                                    android:background="@drawable/hal71_3" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="101dp"
+                                    android:layout_marginTop="15dp"
+                                    android:background="@drawable/hal71_4" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="210dp"
+                            android:layout_marginTop="860dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="145dp"
+                                android:layout_height="67dp"
+                                android:layout_marginLeft="25dp"
+                                android:background="@drawable/hal52_5">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_marginTop="8dp"
+                                    android:fontFamily="@font/leaguespartanbold"
+                                    android:text="CARA MENGATASI"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="1."
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="@string/kurap_atasi1"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="2."
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="@string/kurap_atasi2"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="3."
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="@string/kurap_atasi3"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="4."
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="@string/kurap_atasi4"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="5."
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="@string/kurap_atasi5"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="6."
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="@string/kurap_atasi6"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+                                </TableRow>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="56dp">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@android:color/black" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="300dp"
+        android:padding="1dp"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <ImageView
+            android:id="@+id/btnbck"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_back"></ImageView>
+    </LinearLayout>
+
+</RelativeLayout>

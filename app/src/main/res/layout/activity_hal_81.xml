@@ -3,6 +3,6 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/hal73_back">
+    android:background="@drawable/hal81_back_1">
 
 </RelativeLayout>

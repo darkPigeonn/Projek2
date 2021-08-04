@@ -257,4 +257,76 @@ flavonoid yang berfungsi sebagai antibakteri sehingga dapat mengatasi bakteri pe
     <string name="atasi_kudis3">Untuk mengurangi gatal dapat berendam di air dingin atau menempelkan kain basah pada area kulit yang gatal.
 </string>
     <string name="aloe">Lidah Buaya (<i>Aloe vera</i>)</string>
+    <string name="kurap">Kurap adalah gangguan kulit akibat infeksi jamur yang  melekat dan merusak jaringan keratin (lapisan terluar epidermis). Kurap cepat menyebar ke bagian permukaan kulit lainnya.</string>
+    <string name="kurap_penyebab">Kurap disebabkan oleh jamur dermotofita yaitu <i>Trichophyton spp, Microsporum spp, dan Epidermophyton spp</i>. Penularan dapat terjadi melalui kontak langsung dengan penderita atau kontak tidak langsung dengan benda atau tanah yang terkontaminasi.</string>
+    <string name="kurap_gejala1">Munculnya ruam bersisik berwarna merah di permukaan kulit.
+</string>
+    <string name="kurap_gejala2">Ruam dapat meluas secara melingkar yang seperti cincin.
+</string>
+    <string name="kurap_gejala3">Kurap dapat muncul di tangan, kaki, wajah, selangkangan, kulit kepala dan tubuh. Kurap di kaki dapat menyebabkan bau kaki.
+</string>
+    <string name="kurap_gejala4">Muncul rasa gatal pada ruam.
+</string>
+    <string name="kurap_gejala5">Bercak tumbuh perlahan dan bertambah besar serta menyebar ke area lain di tubuh
+</string>
+    <string name="kurap_atasi1">Menggunakan salep antijamur atau konsumsi tablet antijamur yang sesuai dengan resep dokter.
+</string>
+    <string name="kurap_atasi2">Kompres area yang gatal untuk mengurangi rasa gatal.
+</string>
+    <string name="kurap_atasi3">Tidak berbagi pakaian, handuk, topi, dan sisir dengan orang lain terutama dengan penderita.
+</string>
+    <string name="kurap_atasi4">Kulit harus kering setelah mandi terutama bagian lengan, sela jari kaki, dan selangkangan.
+</string>
+    <string name="kurap_atasi5">Hindari penggunaan celana yang terlalu ketat atau berbahan tidak menyerap keringat.
+</string>
+    <string name="kurap_atasi6">Mandi secara rutin minimal 2 kali sehari.
+</string>
+    <string name="panu">Panu adalah gangguan kulit akibat infeksi jamur yang mengganggu pigmen kulit, sehingga timbul bercak dengan warna yang lebih terang atau lebih gelap pada kulit. </string>
+    <string name="panu_gejala1">Muncul bercak putih pada kulit atau berwarna merah muda, merah, kecokelatan, atau cokelat tergantung pada warna kulit penderita.
+</string>
+    <string name="panu_gejala2">Umumnya bercak muncul pada bagian dada, meluas ke lengan atas, leher, punggung, dan tungkai atas atau bawah.
+</string>
+    <string name="panu_gejala3">Kulit terasa kering atau bersisik dan gatal saat berkeringat.
+</string>
+    <string name="panu_sebab1">Panu disebabkan oleh jamur <i>Malassezia furfur</i></string>
+    <string name="panu_sebab2">Jamur ini menginfeksi lapisan stratum korneum pada kulit
+</string>
+    <string name="panu_sebab3">Stratum korneum akan melunak pada kondisi kulit yang basah dan lembab sehingga jamur mudah masuk.
+</string>
+    <string name="panu_sebab4">Pemicu tumbuhnya jamur secara berlebihan yaitu
+</string>
+    <string name="panu_sebab4a">Suhu dan kelembaban yang tinggi sehingga menyebabkan produksi kelenjar sebum dan keringat semakin meningkat
+</string>
+    <string name="panu_sebab4b">Mengalami penurunan sistem imun tubuh
+</string>
+    <string name="panu_atasi1">Pengobatan pada  kasus panu yang ringan dapat dilakukan dengan menggunakan salep, losion, krim, atau sampo yang dijual bebas di pasaran.
+</string>
+    <string name="panu_atasi2">Shampo yang digunakan yaitu shampo yang memiliki kandungan antijamur seperti selenium sulfida dan ketokonazol
+</string>
+    <string name="panu_atasi3">Pengobatan pada kasus panu yang parah atau tidak bereaksi terhadap obat antijamur yang dijual bebas, dapat berkonsultasi dengan dokter.
+</string>
+    <string name="panu_atasi4">Tidak berbagi pakaian dan handuk dengan orang lain.
+</string>
+    <string name="panu_atasi5">Mandi secara rutin minimal 2 kali sehari.</string>
+    <string name="jdl_panu">PANU <i>(Pitiriasis versikolor)</i></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+
+
+
+    <string name=""></string>
+
+
+
 </resources>
