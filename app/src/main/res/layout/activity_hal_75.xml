@@ -5,4 +5,497 @@
     android:layout_height="match_parent"
     android:background="@drawable/hal75_back">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/leaguespartanbold"
+                android:text="BIANG KERINGAT"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="40dp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hal75_1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginVertical="20dp"
+                        android:fontFamily="@font/mulibold"
+                        android:text="@string/biang"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="376dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:background="#f4ffb3"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <FrameLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginTop="40dp">
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:background="@color/white">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="170dp"
+                                                android:fontFamily="@font/mulibold"
+                                                android:text=" Miliaria Crystallina"
+                                                android:textAlignment="center"
+                                                android:textColor="@color/black"
+                                                android:textSize="16sp"
+                                                android:textStyle="italic" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="137dp"
+                                            android:layout_height="123dp"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginTop="30dp"
+                                            android:background="@drawable/hal75_3" />
+                                    </FrameLayout>
+
+                                    <FrameLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        android:layout_marginTop="40dp">
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:background="@color/white">
+
+                                            <TextView
+                                                android:layout_width="151dp"
+                                                android:layout_height="170dp"
+                                                android:fontFamily="@font/mulibold"
+                                                android:text="Miliaria Rubra"
+                                                android:textAlignment="center"
+                                                android:textColor="@color/black"
+                                                android:textSize="16sp"
+                                                android:textStyle="italic" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="137dp"
+                                            android:layout_height="123dp"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginTop="30dp"
+                                            android:background="@drawable/hal75_4" />
+                                    </FrameLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp">
+
+                                    <TextView
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="Sumber :https://www.medicinenet.com/image-collection/miliaria_crystallina_picture/picture.htm"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="25dp"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="Sumber :https://drnaphi.com/2020/05/08/prickly-heat-another-nuisance-of-the-summers/"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="38dp"
+                                    android:layout_marginTop="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="70dp"
+                                        android:background="@drawable/arrow"
+                                        android:rotation="90" />
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="128dp"
+                                        android:background="@drawable/arrow"
+                                        android:rotation="90" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="25dp"
+                                        android:background="#892d4c">
+
+                                        <TextView
+                                            android:layout_width="150dp"
+                                            android:layout_height="wrap_content"
+                                            android:fontFamily="@font/mulibold"
+                                            android:text="@string/biang_gejala1"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/white"
+                                            android:textSize="16sp" />
+                                    </LinearLayout>
+
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="25dp"
+                                        android:background="#892d4c">
+
+                                        <TextView
+                                            android:layout_width="150dp"
+                                            android:layout_height="wrap_content"
+                                            android:fontFamily="@font/mulibold"
+                                            android:text="@string/biang_gejala2"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/white"
+                                            android:textSize="16sp" />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <FrameLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="90dp"
+                                    android:layout_marginTop="40dp">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@color/white">
+
+                                        <TextView
+                                            android:layout_width="151dp"
+                                            android:layout_height="170dp"
+                                            android:fontFamily="@font/mulibold"
+                                            android:text="Miliaria Profunda"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/black"
+                                            android:textSize="16sp"
+                                            android:textStyle="italic" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="137dp"
+                                        android:layout_height="123dp"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginTop="30dp"
+                                        android:background="@drawable/hal75_5" />
+                                </FrameLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="90dp">
+
+                                    <TextView
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="Sumber :http://www.yogavanahill.com/uploads/images/orginal/2bef6925f5475f62cab3c1f0dbd6483f.jpg"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="41dp"
+                                    android:layout_marginLeft="140dp"
+                                    android:background="@drawable/arrow"
+                                    android:rotation="90" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="95dp"
+                                    android:layout_marginTop="15dp"
+                                    android:background="#892d4c">
+
+                                    <TextView
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="@string/biang_gejala3"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/white"
+                                        android:textSize="16sp" />
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="190dp"
+                                android:layout_height="40dp"
+                                android:background="@color/white">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Gejala dan Jenis"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="155dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/hal72_1" />
+                        </FrameLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="376dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:background="#daf1ff"
+                                android:orientation="vertical">
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="50dp">
+
+                                    <TextView
+                                        android:layout_width="28dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="1."
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:layout_width="328dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="@string/biang_sebab1"
+                                        android:textColor="@color/black"
+                                        android:textSize="16sp" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dp">
+
+                                    <TextView
+                                        android:layout_width="28dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="2."
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:layout_width="328dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="@string/biang_sebab2"
+                                        android:textColor="@color/black"
+                                        android:textSize="16sp" />
+                                </TableRow>
+
+                                <LinearLayout
+                                    android:layout_width="177dp"
+                                    android:layout_height="187dp"
+                                    android:layout_marginLeft="100dp"
+                                    android:layout_marginTop="20dp"
+                                    android:background="@drawable/hal75_2" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="Sumber : https://blog.microbiologics.com/environmental-isolate-case-files-staphylococcus-epidermidis/"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="190dp"
+                                android:layout_height="40dp"
+                                android:background="@color/white">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Penyebab"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="155dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/hal72_1" />
+                        </FrameLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="190dp"
+                            android:layout_height="40dp"
+                            android:background="@color/white">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="Cara Mengatasi"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="155dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/hal72_1" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/mulibold"
+                        android:text="@string/nb_hal6c"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="800dp"
+        android:orientation="horizontal"
+        android:padding="1dp"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <ImageView
+            android:id="@+id/btnbck"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_back"></ImageView>
+    </LinearLayout>
 </RelativeLayout>

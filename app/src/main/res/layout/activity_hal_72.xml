@@ -35,7 +35,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#fde6e5"
                     android:orientation="vertical">
@@ -219,11 +219,13 @@
 
 
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#fef9dd"
                     android:orientation="vertical">
+
                     <FrameLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -252,6 +254,7 @@
                             android:layout_marginTop="3dp"
                             android:background="@drawable/hal72_1" />
                     </FrameLayout>
+
                     <LinearLayout
                         android:layout_width="207dp"
                         android:layout_height="wrap_content"
@@ -372,17 +375,17 @@
                     <TextView
                         android:layout_width="197dp"
                         android:layout_height="match_parent"
-                        android:fontFamily="@font/mulibold"
+                        android:fontFamily="@font/barlowbold"
                         android:text="@string/jdl_panu"
                         android:textAlignment="center"
                         android:textColor="#251e60"
-                        android:textSize="30sp" />
+                        android:textSize="36sp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="#fde6e5"
+                    android:layout_height="1168dp"
+                    android:background="#f2efe7"
                     android:orientation="vertical">
 
                     <FrameLayout
@@ -390,19 +393,20 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
                         android:layout_marginTop="20dp"
-                        android:background="#ffde59">
+                        android:background="#251e60">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp">
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/mulibold"
-                                android:text="PENYEBAB"
+                                android:text="GEJALA"
                                 android:textAlignment="center"
-                                android:textColor="@color/black"
+                                android:textColor="@color/white"
                                 android:textSize="20sp" />
                         </LinearLayout>
 
@@ -417,6 +421,7 @@
                     <LinearLayout
                         android:layout_width="207dp"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
                         android:orientation="vertical">
 
                         <TableRow
@@ -432,9 +437,9 @@
                                 android:textSize="16sp" />
 
                             <TextView
-                                android:layout_width="194dp"
+                                android:layout_width="176dp"
                                 android:layout_height="wrap_content"
-                                android:text="@string/panu_sebab1"
+                                android:text="@string/panu_gejala1"
                                 android:textColor="@color/black"
                                 android:textSize="16sp" />
                         </TableRow>
@@ -442,7 +447,7 @@
                         <TableRow
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp">
+                            android:layout_marginTop="20dp">
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -452,9 +457,9 @@
                                 android:textSize="16sp" />
 
                             <TextView
-                                android:layout_width="198dp"
+                                android:layout_width="176dp"
                                 android:layout_height="wrap_content"
-                                android:text="@string/panu_sebab2"
+                                android:text="@string/panu_gejala2"
                                 android:textColor="@color/black"
                                 android:textSize="16sp" />
                         </TableRow>
@@ -462,7 +467,7 @@
                         <TableRow
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp">
+                            android:layout_marginTop="20dp">
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -472,238 +477,102 @@
                                 android:textSize="16sp" />
 
                             <TextView
-                                android:layout_width="194dp"
+                                android:layout_width="183dp"
                                 android:layout_height="wrap_content"
                                 android:text="@string/panu_sebab3"
                                 android:textColor="@color/black"
                                 android:textSize="16sp" />
                         </TableRow>
 
-                        <TableRow
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="4."
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-
-                            <TextView
-                                android:layout_width="194dp"
-                                android:layout_height="wrap_content"
-                                android:text="@string/panu_sebab4"
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginTop="10dp">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="a."
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-
-                            <TextView
-                                android:layout_width="180dp"
-                                android:layout_height="wrap_content"
-                                android:text="@string/panu_sebab4a"
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginTop="10dp">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="b."
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-
-                            <TextView
-                                android:layout_width="180dp"
-                                android:layout_height="wrap_content"
-                                android:text="@string/panu_sebab4b"
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-                        </TableRow>
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="207dp"
-                        android:layout_height="64dp"
-                        android:layout_marginTop="10dp"
-                        android:background="@drawable/hal72_2" />
+                        android:layout_width="205dp"
+                        android:layout_height="138dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/hal72_3" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp">
 
                         <TextView
-                            android:layout_width="207dp"
+                            android:layout_width="200dp"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/alata_regular"
-                            android:text="Sumber :https://www.creative-biolabs.com/drug-discovery/therapeutics/malassezia-furfur.htm"
+                            android:text="Sumber :https://www.klikdokter.com/penyakit/panu"
                             android:textAlignment="center"
                             android:textColor="@color/black"
                             android:textSize="12sp" />
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="152dp"
+                        android:layout_height="134dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/hal72_4" />
 
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="#fef9dd"
-                    android:orientation="vertical">
-                    <FrameLayout
+                    <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="20dp"
-                        android:background="#ffde59">
+                        android:layout_marginTop="15dp">
 
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Sumber :https://www.skin-disorders.net/diseases/pityriasis-versicolor.html"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/mulibold"
-                                android:text="CARA MENGATASI"
-                                android:textAlignment="center"
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="20dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginLeft="148dp"
-                            android:layout_marginTop="3dp"
-                            android:background="@drawable/hal72_1" />
-                    </FrameLayout>
                     <LinearLayout
-                        android:layout_width="207dp"
+                        android:layout_width="190dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/hal72_5" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:layout_marginTop="15dp">
 
-                        <TableRow
-                            android:layout_width="wrap_content"
+                        <TextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="1."
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-
-                            <TextView
-                                android:layout_width="194dp"
-                                android:layout_height="wrap_content"
-                                android:text="@string/panu_atasi1"
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="2."
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-
-                            <TextView
-                                android:layout_width="198dp"
-                                android:layout_height="wrap_content"
-                                android:text="@string/panu_atasi2"
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="3."
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-
-                            <TextView
-                                android:layout_width="194dp"
-                                android:layout_height="wrap_content"
-                                android:text="@string/panu_atasi3"
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="4."
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-
-                            <TextView
-                                android:layout_width="194dp"
-                                android:layout_height="wrap_content"
-                                android:text="@string/panu_atasi4"
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="5."
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-
-                            <TextView
-                                android:layout_width="194dp"
-                                android:layout_height="wrap_content"
-                                android:text="@string/panu_atasi5"
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-                        </TableRow>
+                            android:fontFamily="@font/alata_regular"
+                            android:text="Sumber : https://medicalbasic.net/do-you-have-white-spot-in-skin-pityriasis-versicolor-causes-and-treatment/"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
+
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="300dp"
+        android:padding="1dp"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <ImageView
+            android:id="@+id/btnbck"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_back"></ImageView>
+    </LinearLayout>
+
 </RelativeLayout>

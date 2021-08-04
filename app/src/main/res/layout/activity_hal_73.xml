@@ -5,4 +5,746 @@
     android:layout_height="match_parent"
     android:background="@drawable/hal73_back">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="50dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alegreya"
+                android:text="KUTU AIR"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alegreya"
+                android:text="(Tinea pedis)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/hal73_1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginVertical="10dp"
+                        android:fontFamily="@font/mulibold"
+                        android:text="@string/kutuair"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="376dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="#78684c">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="140dp"
+                                android:fontFamily="@font/mulibold"
+                                android:text="GEJALA"
+                                android:textColor="@color/white"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#fef9dd"
+                            android:orientation="vertical">
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="1."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="355dp"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="@string/kutuair_gejala1"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="2."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="355dp"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="@string/kutuair_gejala2"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="3."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="356dp"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="@string/kutuair_gejala3"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="4."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="356dp"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="@string/kutuair_gejala4"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="5."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="355dp"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="@string/kutuair_gejala5"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </TableRow>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="15dp">
+
+                                    <LinearLayout
+                                        android:layout_width="152dp"
+                                        android:layout_height="112dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:background="@drawable/hal73_4" />
+
+                                    <LinearLayout
+                                        android:layout_width="152dp"
+                                        android:layout_height="112dp"
+                                        android:layout_marginLeft="25dp"
+                                        android:layout_marginTop="20dp"
+                                        android:background="@drawable/hal73_5" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="15dp">
+
+                                    <TextView
+                                        android:layout_width="168dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="Sumber : https://www.drabdullahunal.com/en/general-dermatology/foot-mushroom-tinea-pedis"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="168dp"
+                                        android:layout_height="72dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="Sumber :https://bpac.org.nz/bpj/2014/december/tinea-pedis.aspx"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="12sp" />
+                                </TableRow>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="15dp">
+
+                                    <LinearLayout
+                                        android:layout_width="152dp"
+                                        android:layout_height="112dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:background="@drawable/hal73_6" />
+
+                                    <LinearLayout
+                                        android:layout_width="152dp"
+                                        android:layout_height="112dp"
+                                        android:layout_marginLeft="40dp"
+                                        android:layout_marginTop="20dp"
+                                        android:background="@drawable/hal73_7" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="15dp">
+
+                                    <TextView
+                                        android:layout_width="168dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="Sumber :
+https://gaya.tempo.co/read/1428314/kenali-tanda-tanda-kulit-terkena-kutu-air"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="168dp"
+                                        android:layout_height="72dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="Sumber :
+https://www.natural-health-news.com/tinea-pedis-causes-symptoms-diagnosis-and-treatment/"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="12sp" />
+                                </TableRow>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="#78684c">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="128dp"
+                                android:fontFamily="@font/mulibold"
+                                android:text="PENYEBAB"
+                                android:textColor="@color/white"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#fcfcfc"
+                            android:orientation="vertical">
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="1."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="@string/kutuair_penyebab1"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginTop="20dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="a."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="@string/kutuair_penyebab1_a"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginTop="20dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="b."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="@string/kutuair_penyebab1_b"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginTop="20dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="c."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="@string/kutuair_penyebab1_c"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="2."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="@string/kutuair_penyebab2"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </TableRow>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="15dp">
+
+                                    <LinearLayout
+                                        android:layout_width="152dp"
+                                        android:layout_height="112dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:background="@drawable/hal73_2_a" />
+
+                                    <LinearLayout
+                                        android:layout_width="152dp"
+                                        android:layout_height="112dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:background="@drawable/hal73_2_b" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="55dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="15dp">
+
+                                    <TextView
+                                        android:layout_width="168dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="Trichophyton rubrum"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp"
+                                        android:textStyle="italic" />
+
+                                    <TextView
+                                        android:layout_width="146dp"
+                                        android:layout_height="55dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="Trichopython mentagrophytes"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp"
+                                        android:textStyle="italic" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="10dp">
+
+                                    <TextView
+                                        android:layout_width="168dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="Sumber :https://www.researchgate.net/figure/Trichophyton-rubrum-var-raubitschekii-Microscopic-image-magnification-9-400_fig10_262050502"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="146dp"
+                                        android:layout_height="72dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="Sumber :https://www.creative-biolabs.com/drug-discovery/therapeutics/trichophyton-mentagrophytes.htm"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="12sp" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="100dp"
+                                    android:layout_marginTop="15dp">
+
+                                    <LinearLayout
+                                        android:layout_width="152dp"
+                                        android:layout_height="112dp"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:background="@drawable/hal73_2" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="55dp"
+                                    android:layout_marginLeft="105dp"
+                                    android:layout_marginTop="15dp">
+
+                                    <TextView
+                                        android:layout_width="168dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+                                        android:text="Epidermophyton flocosum"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp"
+                                        android:textStyle="italic" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="105dp"
+                                    android:layout_marginTop="10dp">
+
+                                    <TextView
+                                        android:layout_width="168dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mulibold"
+
+                                        android:text="Sumber :https://mushroomobserver.org/name/show_name_description/1368"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="12sp" />
+                                </TableRow>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="#78684c">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="90dp"
+                                android:fontFamily="@font/mulibold"
+                                android:text="CARA MENGATASI"
+                                android:textColor="@color/white"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#caffb3"
+                            android:orientation="vertical">
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="1."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="355dp"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="@string/kutuair_atasi1"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="2."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="356dp"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="@string/kutuair_atasi2"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="3."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="356dp"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="@string/kutuair_atasi3"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="4."
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="355dp"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulibold"
+                                    android:text="@string/kutuair_atasi4"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+                            </TableRow>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="800dp"
+        android:orientation="horizontal"
+        android:padding="1dp"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <ImageView
+            android:id="@+id/btnbck"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_back"></ImageView>
+    </LinearLayout>
 </RelativeLayout>

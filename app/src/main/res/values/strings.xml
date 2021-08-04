@@ -309,11 +309,68 @@ flavonoid yang berfungsi sebagai antibakteri sehingga dapat mengatasi bakteri pe
 </string>
     <string name="panu_atasi5">Mandi secara rutin minimal 2 kali sehari.</string>
     <string name="jdl_panu">PANU <i>(Pitiriasis versikolor)</i></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
+    <string name="kutuair">Kutu air <i> (Tinea pedis) </i> merupakan gangguan kulit akibat infeksi jamur yang terjadi pada sela-sela jari kaki dan menyebar ke area kulit kaki seperti sisi samping kaki, kuku, telapak dan punggung kaki. Kutu air dapat menular dari benda yang terkontaminasi jamur, seperti handuk, lantai, sepatu, atau pakaian.  </string>
+    <string name="kutuair_gejala1">Muncul ruam merah, bersisik, dan gatal pada sela jari kaki
+</string>
+    <string name="kutuair_gejala2">Warna kulit menjadi pucat.
+</string>
+    <string name="kutuair_gejala3">Kulit kaki pecah-pecah dan mengelupas dan kering
+</string>
+    <string name="kutuair_gejala4">Kulit melepuh dan lecet akibat gatal pada kaki.
+</string>
+    <string name="kutuair_gejala5">Menimbulkan bau kaki
+</string>
+    <string name="kutuair_penyebab1">Kutu air disebabkan oleh jamur jenis
+</string>
+    <string name="kutuair_penyebab1_a"><i>Trichophyton rubrum,</i>
+</string>
+    <string name="kutuair_penyebab1_b"><i>Trichopython mentagrophytes, </i>
+</string>
+    <string name="kutuair_penyebab1_c"><i>Epidermophyton flocosum.</i>
+</string>
+    <string name="kutuair_penyebab2">Muncul pada kaki yang lembap akibat berkeringat atau menggunakan sepatu ketat.
+</string>
+    <string name="kutuair_atasi1">Pengobatan kutu air dapat menggunakan obat antijamur dioleskan langsung ke kulit atau melalui obat minum
+</string>
+    <string name="kutuair_atasi2">Rutin mengganti kaos kaki dan menggunakan sepatu nyaman dan tidak sesak atau ketat
+</string>
+    <string name="kutuair_atasi3">Menggunakan alas kaki ketika beraktivitas di ruangan atau fasilitas umum
+</string>
+    <string name="kutuair_atasi4">Tidak berbagi kaos kaki, sepatu dan handuk dengan orang lain
+</string>
+    <string name="bisul">Bisul atau furunkel merupakan gangguan kulit akibat infeksi bakteri yang menimbulkan peradangan didalam folikel rambut (tempat tumbuhnya rambut). Bisul biasanya muncul pada area wajah, belakang leher, ketiak, pantat, dan paha. </string>
+    <string name="bisul_jdl">BISUL <i>(Furunkel)</i></string>
+    <string name="bisul_gejala1">Muncul benjolan kecil berwarna merah, keras dan terasa nyeri.
+</string>
+    <string name="bisul_gejala2">Beberapa hari kemudian, benjolan menjadi lunak dan membesar serta berisi nanah.
+</string>
+    <string name="bisul_gejala3">Kulit sekitar benjolan memerah dan bengkak.
+</string>
+    <string name="bisul_gejala4">Kulit di sekitar benjolan jika disentuh terasa hangat.
+</string>
+    <string name="bisul_sebab1">Bisul disebabkan oleh bakteri <i>Staphylococcus aureus </i>
+
+yang masuk melalui pori-pori atau luka pada kulit.
+</string>
+    <string name="bisul_sebab2">Kurang menjaga kebersihan
+</string>
+    <string name="bisul_sebab3">Bisul dapat menular langsung dari nanah yang keluar pada benjolan.</string>
+    <string name="bisul_atasi1">Kompres bisul dengan air hangat 3 kali sehari untuk mengurangi rasa sakit dan agar nanah keluar.
+</string>
+    <string name="bisul_atasi2">Bisul yang telah pecah atau nanah telah keluar dapat dibersihkan dengan  sabun anti bakteri kemudian ditutup dengan kain kasa steril.
+</string>
+    <string name="bisul_atasi3">Tidak memencet benjolan yang berisi nanah karena dapat menginfeksi area kulit sekitarnya.
+</string>
+    <string name="bisul_atasi4">Mencuci tangan sebelum dan sesudah menyentuh bisul
+</string>
+    <string name="bisul_atasi5">Menggunakan obat antibiotik sesuai dengan resep dokter.</string>
+    <string name="biang">Biang keringat atau miliaria merupakan gangguan kulit yang terjadi karena tersumbatnya kelenjar keringat. Biang keringat terjadi pada segala usia namun sering terjadi pada bayi, karena pengaturan suhu dan kelenjar keringat bayi yang belum sepenuhnya berkembang. Bayi belum dapat mengeluarkan keringat dengan baik sehingga pada cuaca panas dan lembab kelenjar keringat tersumbat. Biang keringat tidak menular dan tidak berbahaya.</string>
+    <string name="biang_gejala1"> Terjadi pada lapisan atas kulit yang ditandai dengan bintil kecil berisi cairan. Tidak menimbulkan rasa gatal atau sakit dan biasanya terjadi pada wajah bayi.</string>
+    <string name="biang_gejala2">Terjadi pada lapisan bagian dalam epidermis yang ditandai dengan adanya bintil merah muda dengan diameter 1-2 mm  gatal, dan perih.</string>
+    <string name="biang_gejala3">Terjadi pada lapisan dermis yang di tandai dengan bintil putih keras dengan ukuran 1-3 mm dan tidak gatal.</string>
+    <string name="biang_sebab1">Biang keringat disebabkan karena kelenjar keringat tersumbat oleh bakteri <i>Staphylococcus epidermidis</i>
+</string>
+    <string name="biang_sebab2">Biang keringat juga dapat sebabkan karena udara yang panas dan lembab serta penggunaan pakaian yang ketat dan tidak menyerap keringat. </string>
     <string name=""></string>
     <string name=""></string>
     <string name=""></string>
@@ -325,7 +382,6 @@ flavonoid yang berfungsi sebagai antibakteri sehingga dapat mengatasi bakteri pe
 
 
 
-    <string name=""></string>
 
 
 
